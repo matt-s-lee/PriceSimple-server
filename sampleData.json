@@ -29,7 +29,7 @@
 [ // products\metro
     {
         "_id": "cd93dh99d",
-        "name": "Hothouse Red Tomato",
+        "product_name": "Hothouse Red Tomato",
         "store": "metro",
         "sold_by_weight": {
             "is": true,
@@ -38,12 +38,13 @@
         },
         "sold_individually": {
             "is": false,
-            "price_per_item": "",
+            "price_per_item": "", 
         },
         "sold_by_package": {
             "is": false,
-            "price_per_package": "",
-            "package_weight": "",
+            "price_per_package": "", 
+            "units_per_package": "", // 4 un, 397g
+            "price_per_100g": "",
         },
         "img_src": "https://sample.s3-eu-west-1.amazonaws.com/i/19949.webp",
     },

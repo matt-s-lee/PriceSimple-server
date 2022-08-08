@@ -7,6 +7,8 @@ PROXY_PASSWORD = API_KEY;
 PROXY_SERVER = "proxy-server.scraperapi.com";
 PROXY_SERVER_PORT = "8001";
 
+// TESTING ON TOSCRAPE.COM
+
 const scrollScraper = async (url) => {
   // OPEN BROWSER
   const browser = await puppeteer.launch({
@@ -44,6 +46,7 @@ const scrollScraper = async (url) => {
       );
       // https://stackoverflow.com/questions/51529332/puppeteer-scroll-down-until-you-cant-anymore, 2nd answer
       if (isBottom) {
+        console.log("isBottom");
         clearInterval(scrollPage);
         await browser.close();
       }
