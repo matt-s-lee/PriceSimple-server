@@ -1,3 +1,5 @@
+// PROVIGO WEBSITE
+
 const puppeteer = require("puppeteer");
 require("dotenv").config({ path: "./.env" });
 const { API_KEY } = process.env;

@@ -1,3 +1,5 @@
+// METRO WEBSITE
+
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
@@ -60,6 +62,7 @@ const paginatedScraper = async (url) => {
         img_src: result.querySelector(
           "div.tile-product__top-section__visuals > a > picture > img"
         ).src,
+        link: result.querySelector("div.tile-product__top-section__visuals > a").href,
       }));
       return array;
     });
@@ -97,6 +100,7 @@ const paginatedScraper = async (url) => {
         img_src: result.querySelector(
           "div.tile-product__top-section__visuals > a > picture > img"
         ).src,
+        link: result.querySelector("div.tile-product__top-section__visuals > a").href,
       }));
       return array;
     });
@@ -131,6 +135,7 @@ const paginatedScraper = async (url) => {
         img_src: result.querySelector(
           "div.tile-product__top-section__visuals > a > picture > img"
         ).src,
+        link: result.querySelector("div.tile-product__top-section__visuals > a").href,
       }));
       return array;
     });
@@ -167,6 +172,7 @@ const paginatedScraper = async (url) => {
         img_src: result.querySelector(
           "div.tile-product__top-section__visuals > a > picture > img"
         ).src,
+        link: result.querySelector("div.tile-product__top-section__visuals > a").href,
       }));
       return array;
     });
@@ -211,9 +217,9 @@ const paginatedScraper = async (url) => {
 };
 
 // paginatedScraper(
-//   "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-11"
+//   "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-2"
 // );
-// paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
+paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
 
 ///////////
 

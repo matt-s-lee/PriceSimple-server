@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "cart ID",
+    "userId": "user ID to ID cart",
+    "items": [
+      {
+        "_id": "fff1393",
+        "name": "English Cucumber",
+        "store": "metro",
+        "price": "2.99"
+      }
+    ]
+  }
+]
