@@ -1,0 +1,314 @@
+[
+  {
+    "product_name": "Cauliflower",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h35/ha0/8897128824862.jpg"
+  },
+  {
+    "product_name": "Cucumber",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "0.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/hd0/hbf/8837091917854.jpg"
+  },
+  {
+    "product_name": "Local Celery",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.49" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/he0/hba/8837231443998.jpg"
+  },
+  {
+    "product_name": "Green Leaf Lettuce",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "0.88" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/hec/hd1/8837224562718.jpg"
+  },
+  {
+    "product_name": "Local Iceberg Lettuce",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.49" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h1c/h75/8871772323870.jpg"
+  },
+  {
+    "product_name": "Baby Spinach",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.99",
+      "units_per_package": "142g",
+      "price_per_100g": "2.81"
+    },
+    "img_src": "https://product-images.metro.ca/images/h83/h9f/9363111313438.jpg"
+  },
+  {
+    "product_name": "Grape Tomatoes",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.49",
+      "units_per_package": "227g",
+      "price_per_100g": "1.54"
+    },
+    "img_src": "https://product-images.metro.ca/images/hee/hac/10009373442078.jpg"
+  },
+  {
+    "product_name": "Baby Spinach",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "6.99",
+      "units_per_package": "312g",
+      "price_per_100g": "2.24"
+    },
+    "img_src": "https://product-images.metro.ca/images/h87/h85/10300079702046.jpg"
+  },
+  {
+    "product_name": "Boomer Gold Yellow Creamer Potatoes",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "680g",
+      "price_per_100g": "0.88"
+    },
+    "img_src": "https://product-images.metro.ca/images/h9e/h05/9635554918430.jpg"
+  },
+  {
+    "product_name": "Fresh Creamer Potatoes, Terrific Trio",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "680g",
+      "price_per_100g": "0.88"
+    },
+    "img_src": "https://product-images.metro.ca/images/h7d/ha6/9635545546782.jpg"
+  },
+  {
+    "product_name": "Blushing Belle Red Creamer Potatoes",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "680g",
+      "price_per_100g": "0.88"
+    },
+    "img_src": "https://product-images.metro.ca/images/h20/h93/9635545776158.jpg"
+  },
+  {
+    "product_name": "Sliced White Mushrooms",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "2.99",
+      "units_per_package": "227g",
+      "price_per_100g": "1.32"
+    },
+    "img_src": "https://product-images.metro.ca/images/hb6/hf7/8858842136606.jpg"
+  },
+  {
+    "product_name": "Organic Baby Spinach",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "4.49",
+      "units_per_package": "142g",
+      "price_per_100g": "3.16"
+    },
+    "img_src": "https://product-images.metro.ca/images/h6a/h5b/10143805505566.jpg"
+  },
+  {
+    "product_name": "Hydroponic Boston Lettuce Duo",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "4.49",
+      "units_per_package": "2 un",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/hac/h07/10250265755678.jpg"
+  },
+  {
+    "product_name": "Radish",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "0.99",
+      "units_per_package": "1 bunch",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h9b/hf0/8874231463966.jpg"
+  },
+  {
+    "product_name": "Green Kale",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "25.00",
+      "units_per_package": "1 bunch",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/ha0/h5e/8873634562078.jpg"
+  },
+  {
+    "product_name": "Red Onion",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$3.49", "price_per_kg": "$7.69" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h5d/h52/8833148059678.jpg"
+  },
+  {
+    "product_name": "Zucchini",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$2.49", "price_per_kg": "$5.49" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h1f/hc7/8832944898078.jpg"
+  },
+  {
+    "product_name": "Hothouse Red Tomato",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$2.99", "price_per_kg": "$6.59" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h75/h9c/9662940053534.jpg"
+  },
+  {
+    "product_name": "Hothouse Yellow Pepper",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$5.99", "price_per_kg": "$13.21" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h37/hc4/8834359427102.jpg"
+  },
+  {
+    "product_name": "Green Cabbage",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$0.99", "price_per_kg": "$2.18" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h4d/hec/8867946004510.jpg"
+  },
+  {
+    "product_name": "Colossal Garlic",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$5.99", "price_per_kg": "$13.21" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h06/h11/8833746599966.jpg"
+  },
+  {
+    "product_name": "Spanish Onion",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$2.99", "price_per_kg": "$6.59" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h49/h6a/8835311075358.jpg"
+  },
+  {
+    "product_name": "White Onion",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "$2.99", "price_per_kg": "$6.59" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h7f/hab/8874212982814.jpg"
+  }
+]
