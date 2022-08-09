@@ -49,7 +49,7 @@ const paginatedScraper = async (url) => {
         sold_individually: {
           is: true,
           price_per_item: (priceNoSpaces = result
-            .querySelector(".pi-sale-price")
+            .querySelector("div.pi-secondary-price > span")
             .textContent.replace(/\s\D+/g, "")), // only the #
         },
         sold_by_package: {
@@ -124,7 +124,7 @@ const paginatedScraper = async (url) => {
         sold_by_package: {
           is: true,
           price_per_package: (priceNoSpaces = result
-            .querySelector(".pi-sale-price")
+            .querySelector("div.pi-secondary-price > span") // ?????
             .textContent.replace(/\s\D+/g, "")), // only #
           units_per_package: result.querySelector(".pt-weight").textContent,
           price_per_100g: "",
