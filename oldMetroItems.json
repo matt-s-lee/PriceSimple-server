@@ -30,12 +30,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "227g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/h7d/h1d/8867485253662.jpg"
   },
   {
@@ -43,12 +38,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "2lb",
-      "price_per_100g": "0.33"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "2lb", "price_per_100g": "0.33" },
     "img_src": "https://product-images.metro.ca/images/h3c/h86/8858906361886.jpg"
   },
   {
@@ -56,12 +46,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "340g",
-      "price_per_100g": "1.76"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "1.76" },
     "img_src": "https://product-images.metro.ca/images/ha9/hc9/9032565784606.jpg"
   },
   {
@@ -69,12 +54,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "454g",
-      "price_per_100g": "0.77"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.77" },
     "img_src": "https://product-images.metro.ca/images/ha1/hd8/9906498994206.jpg"
   },
   {
@@ -82,12 +62,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/h4f/h3a/8871950254110.jpg"
   },
   {
@@ -95,12 +70,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "325g",
-      "price_per_100g": "1.84"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "325g", "price_per_100g": "1.84" },
     "img_src": "https://product-images.metro.ca/images/h85/hf9/8858945749022.jpg"
   },
   {
@@ -108,12 +78,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "1.99",
-      "units_per_package": "340g",
-      "price_per_100g": "0.59"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "0.59" },
     "img_src": "https://product-images.metro.ca/images/h3a/h0c/8871630307358.jpg"
   },
   {
@@ -381,12 +346,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "142g",
-      "price_per_100g": "2.81"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "2.81" },
     "img_src": "https://product-images.metro.ca/images/h83/h9f/9363111313438.jpg"
   },
   {
@@ -394,12 +354,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "227g",
-      "price_per_100g": "1.54"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.54" },
     "img_src": "https://product-images.metro.ca/images/hee/hac/10009373442078.jpg"
   },
   {
@@ -407,12 +362,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "312g",
-      "price_per_100g": "2.24"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "312g", "price_per_100g": "2.24" },
     "img_src": "https://product-images.metro.ca/images/h87/h85/10300079702046.jpg"
   },
   {
@@ -420,12 +370,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "680g",
-      "price_per_100g": "0.88"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "680g", "price_per_100g": "0.88" },
     "img_src": "https://product-images.metro.ca/images/h9e/h05/9635554918430.jpg"
   },
   {
@@ -433,12 +378,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "680g",
-      "price_per_100g": "0.88"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "680g", "price_per_100g": "0.88" },
     "img_src": "https://product-images.metro.ca/images/h7d/ha6/9635545546782.jpg"
   },
   {
@@ -446,12 +386,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "680g",
-      "price_per_100g": "0.88"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "680g", "price_per_100g": "0.88" },
     "img_src": "https://product-images.metro.ca/images/h20/h93/9635545776158.jpg"
   },
   {
@@ -459,12 +394,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "227g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/hb6/hf7/8858842136606.jpg"
   },
   {
@@ -472,12 +402,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "142g",
-      "price_per_100g": "3.16"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "3.16" },
     "img_src": "https://product-images.metro.ca/images/h6a/h5b/10143805505566.jpg"
   },
   {
@@ -654,12 +579,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/hce/h0b/8871391690782.jpg"
   },
   {
@@ -667,12 +587,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/h1c/h09/8933458870302.jpg"
   },
   {
@@ -680,12 +595,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "142g",
-      "price_per_100g": "3.16"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "3.16" },
     "img_src": "https://product-images.metro.ca/images/h88/ha5/10143874908190.jpg"
   },
   {
@@ -693,12 +603,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "283g",
-      "price_per_100g": "1.76"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "1.76" },
     "img_src": "https://product-images.metro.ca/images/ha5/h90/9366579904542.jpg"
   },
   {
@@ -706,12 +611,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "250g",
-      "price_per_100g": "1.40"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "250g", "price_per_100g": "1.40" },
     "img_src": "https://product-images.metro.ca/images/h33/h0d/9961667100702.jpg"
   },
   {
@@ -719,12 +619,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/hdd/h82/10424153374750.jpg"
   },
   {
@@ -732,12 +627,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "171g",
-      "price_per_100g": "1.75"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "171g", "price_per_100g": "1.75" },
     "img_src": "https://product-images.metro.ca/images/hee/hfc/8889267519518.jpg"
   },
   {
@@ -745,12 +635,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "3lb",
-      "price_per_100g": "0.44"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "3lb", "price_per_100g": "0.44" },
     "img_src": "https://product-images.metro.ca/images/h22/h80/10759709261854.jpg"
   },
   {
@@ -758,12 +643,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "3lb",
-      "price_per_100g": "0.29"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "3lb", "price_per_100g": "0.29" },
     "img_src": "https://product-images.metro.ca/images/h27/hc9/8893484564510.jpg"
   },
   {
@@ -771,12 +651,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/h17/h18/8991587336222.jpg"
   },
   {
@@ -784,12 +659,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "340g",
-      "price_per_100g": "1.17"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "1.17" },
     "img_src": "https://product-images.metro.ca/images/h37/hc5/8858933493790.jpg"
   },
   {
@@ -797,12 +667,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "142g",
-      "price_per_100g": "3.16"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "3.16" },
     "img_src": "https://product-images.metro.ca/images/h4f/hbc/10143803932702.jpg"
   },
   {
@@ -810,12 +675,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "3lb",
-      "price_per_100g": "0.29"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "3lb", "price_per_100g": "0.29" },
     "img_src": "https://product-images.metro.ca/images/h38/h46/9222206455838.jpg"
   },
   {
@@ -823,12 +683,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.18"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.18" },
     "img_src": "https://product-images.metro.ca/images/hde/ha8/8889302351902.jpg"
   },
   {
@@ -836,12 +691,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.18"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.18" },
     "img_src": "https://product-images.metro.ca/images/h54/h1b/8889377259550.jpg"
   },
   {
@@ -849,12 +699,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "283g",
-      "price_per_100g": "2.12"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "2.12" },
     "img_src": "https://product-images.metro.ca/images/h1b/h7e/9363145293854.jpg"
   },
   {
@@ -992,12 +837,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "227g",
-      "price_per_100g": "1.54"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.54" },
     "img_src": "https://product-images.metro.ca/images/h00/h42/9194235068446.jpg"
   },
   {
@@ -1005,38 +845,15 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "283g",
-      "price_per_100g": "2.47"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "2.47" },
     "img_src": "https://product-images.metro.ca/images/h46/haf/9316955389982.jpg"
-  },
-  {
-    "product_name": "Sugar Snap Peas",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "200g",
-      "price_per_100g": "2.00"
-    },
-    "img_src": "https://product-images.metro.ca/images/h47/h4d/8893481320478.jpg"
   },
   {
     "product_name": "Arugula",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "312g",
-      "price_per_100g": "2.24"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "312g", "price_per_100g": "2.24" },
     "img_src": "https://product-images.metro.ca/images/h8b/hcf/10134564732958.jpg"
   },
   {
@@ -1044,12 +861,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "2x125g",
-      "price_per_100g": "1.60"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "2x125g", "price_per_100g": "1.60" },
     "img_src": "https://product-images.metro.ca/images/hf3/h36/8889269583902.jpg"
   },
   {
@@ -1057,12 +869,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "142g",
-      "price_per_100g": "3.16"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "3.16" },
     "img_src": "https://product-images.metro.ca/images/h20/hcf/9342869274654.jpg"
   },
   {
@@ -1070,12 +877,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "500g",
-      "price_per_100g": "1.00"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "500g", "price_per_100g": "1.00" },
     "img_src": "https://product-images.metro.ca/images/h34/h7e/8889390432286.jpg"
   },
   {
@@ -1083,12 +885,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "400g",
-      "price_per_100g": "1.25"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "400g", "price_per_100g": "1.25" },
     "img_src": "https://product-images.metro.ca/images/hd1/h51/9188568170526.jpg"
   },
   {
@@ -1096,13 +893,16 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "170g",
-      "price_per_100g": "2.35"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "170g", "price_per_100g": "2.35" },
     "img_src": "https://product-images.metro.ca/images/hc8/h84/8858937163806.jpg"
+  },
+  {
+    "product_name": "Baby Bok Choy Junior",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "2.20" },
+    "img_src": "https://product-images.metro.ca/images/ha2/h0f/10715284537374.jpg"
   },
   {
     "product_name": "Beets",
@@ -1183,19 +983,6 @@
     "img_src": "https://product-images.metro.ca/images/hc6/hc6/9335917641758.jpg"
   },
   {
-    "product_name": "Celery Root",
-    "store": "metro",
-    "sold_by_weight": { "is": true, "price_per_lb": "2.99", "price_per_kg": "6.59" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": false,
-      "price_per_package": "",
-      "units_per_package": "",
-      "price_per_100g": ""
-    },
-    "img_src": "https://product-images.metro.ca/images/h43/ha6/8872796454942.jpg"
-  },
-  {
     "product_name": "Radicchio",
     "store": "metro",
     "sold_by_weight": { "is": true, "price_per_lb": "4.99", "price_per_kg": "11.00" },
@@ -1261,6 +1048,19 @@
     "img_src": "https://product-images.metro.ca/images/h1d/h7f/8834178744350.jpg"
   },
   {
+    "product_name": "Brussels Sprouts",
+    "store": "metro",
+    "sold_by_weight": { "is": true, "price_per_lb": "3.99", "price_per_kg": "8.80" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/hf2/h32/8832746553374.jpg"
+  },
+  {
     "product_name": "Artichoke",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
@@ -1287,29 +1087,11 @@
     "img_src": "https://product-images.metro.ca/images/h0a/h96/8873757900830.jpg"
   },
   {
-    "product_name": "Baby Bok Choy Junior",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "227g",
-      "price_per_100g": "2.20"
-    },
-    "img_src": "https://product-images.metro.ca/images/ha2/h0f/10715284537374.jpg"
-  },
-  {
     "product_name": "Cocktail Tomatoes",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "453g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "453g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/hef/h55/9234241126430.jpg"
   },
   {
@@ -1317,12 +1099,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "1.99",
-      "units_per_package": "454g",
-      "price_per_100g": "0.44"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.44" },
     "img_src": "https://product-images.metro.ca/images/hb4/ha1/9254265356318.jpg"
   },
   {
@@ -1330,12 +1107,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "227g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/h35/h75/10009371181086.jpg"
   },
   {
@@ -1345,7 +1117,6 @@
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
       "is": true,
-      "price_per_package": "4.99",
       "units_per_package": "4unitsperpackage",
       "price_per_100g": "1.10"
     },
@@ -1356,12 +1127,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/h53/h8f/10424155144222.jpg"
   },
   {
@@ -1369,12 +1135,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "340g",
-      "price_per_100g": "1.76"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "1.76" },
     "img_src": "https://product-images.metro.ca/images/hbf/hac/10822774751262.jpg"
   },
   {
@@ -1382,12 +1143,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "340g",
-      "price_per_100g": "1.47"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "1.47" },
     "img_src": "https://product-images.metro.ca/images/h63/h81/8930441232414.jpg"
   },
   {
@@ -1395,12 +1151,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/h8c/hb5/9316959027230.jpg"
   },
   {
@@ -1408,12 +1159,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/h67/h25/10715284570142.jpg"
   },
   {
@@ -1421,12 +1167,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/hbf/h4f/8871901560862.jpg"
   },
   {
@@ -1434,12 +1175,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/h4a/hcc/9316957126686.jpg"
   },
   {
@@ -1447,13 +1183,16 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/hbc/h3f/9478820659230.jpg"
+  },
+  {
+    "product_name": "Oyster Mushrooms",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "85g", "price_per_100g": "5.87" },
+    "img_src": "https://product-images.metro.ca/images/h02/h2a/8874171105310.jpg"
   },
   {
     "product_name": "Carrots with Tops",
@@ -1495,17 +1234,17 @@
     "img_src": "https://product-images.metro.ca/images/h38/h10/8837154701342.jpg"
   },
   {
-    "product_name": "Brussels Sprouts",
+    "product_name": "White Pearl Onions",
     "store": "metro",
-    "sold_by_weight": { "is": true, "price_per_lb": "3.99", "price_per_kg": "8.80" },
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
-      "price_per_package": "",
-      "units_per_package": "",
+      "is": true,
+      "price_per_package": "3.49",
+      "units_per_package": "175 g",
       "price_per_100g": ""
     },
-    "img_src": "https://product-images.metro.ca/images/hf2/h32/8832746553374.jpg"
+    "img_src": "https://product-images.metro.ca/images/ha6/ha5/8893820469278.jpg"
   },
   {
     "product_name": "Long Green Hot Pepper",
@@ -1586,29 +1325,11 @@
     "img_src": "https://product-images.metro.ca/images/h82/hae/8858960429086.jpg"
   },
   {
-    "product_name": "Oyster Mushrooms",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "85g",
-      "price_per_100g": "5.87"
-    },
-    "img_src": "https://product-images.metro.ca/images/h02/h2a/8874171105310.jpg"
-  },
-  {
     "product_name": "Medley of Tomatoes",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "283g",
-      "price_per_100g": "1.41"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "1.41" },
     "img_src": "https://product-images.metro.ca/images/h2a/h0f/9363138576414.jpg"
   },
   {
@@ -1616,12 +1337,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "40g",
-      "price_per_100g": "12.48"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "40g", "price_per_100g": "12.48" },
     "img_src": "https://product-images.metro.ca/images/h29/hd9/8938736156702.jpg"
   },
   {
@@ -1629,12 +1345,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "170g",
-      "price_per_100g": "3.52"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "170g", "price_per_100g": "3.52" },
     "img_src": "https://product-images.metro.ca/images/hbd/h84/10823328694302.jpg"
   },
   {
@@ -1642,12 +1353,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "227g",
-      "price_per_100g": "1.54"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.54" },
     "img_src": "https://product-images.metro.ca/images/h77/hff/10073345982494.jpg"
   },
   {
@@ -1655,12 +1361,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/h2d/hab/10882783313950.jpg"
   },
   {
@@ -1668,12 +1369,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "325g",
-      "price_per_100g": "1.23"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "325g", "price_per_100g": "1.23" },
     "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
@@ -1681,12 +1377,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "220g",
-      "price_per_100g": "1.81"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "220g", "price_per_100g": "1.81" },
     "img_src": "https://product-images.metro.ca/images/hf5/h55/9288534425630.jpg"
   },
   {
@@ -1694,12 +1385,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "200g",
-      "price_per_100g": "2.00"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "200g", "price_per_100g": "2.00" },
     "img_src": "https://product-images.metro.ca/images/h6b/h42/9873176854558.jpg"
   },
   {
@@ -1707,12 +1393,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "3lb",
-      "price_per_100g": "0.29"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "3lb", "price_per_100g": "0.29" },
     "img_src": "https://product-images.metro.ca/images/hb0/h13/9311201755166.jpg"
   },
   {
@@ -1720,12 +1401,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "454g",
-      "price_per_100g": "0.77"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.77" },
     "img_src": "https://product-images.metro.ca/images/h81/hd8/9246467981342.jpg"
   },
   {
@@ -1733,12 +1409,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "255g",
-      "price_per_100g": "1.96"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "255g", "price_per_100g": "1.96" },
     "img_src": "https://product-images.metro.ca/images/hb1/h58/9703210778654.jpg"
   },
   {
@@ -1746,12 +1417,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "368g",
-      "price_per_100g": "1.36"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "368g", "price_per_100g": "1.36" },
     "img_src": "https://product-images.metro.ca/images/h88/ha7/9559732617246.jpg"
   },
   {
@@ -1759,12 +1425,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "397g",
-      "price_per_100g": "1.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "397g", "price_per_100g": "1.26" },
     "img_src": "https://product-images.metro.ca/images/h51/h6c/9559727538206.jpg"
   },
   {
@@ -1772,12 +1433,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "368g",
-      "price_per_100g": "1.36"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "368g", "price_per_100g": "1.36" },
     "img_src": "https://product-images.metro.ca/images/he8/hb0/9634048475166.jpg"
   },
   {
@@ -1785,12 +1441,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.40"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.40" },
     "img_src": "https://product-images.metro.ca/images/hbb/hee/9247871172638.jpg"
   },
   {
@@ -1798,26 +1449,24 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.27"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.27" },
     "img_src": "https://product-images.metro.ca/images/ha6/h71/9262120337438.jpg"
   },
   {
-    "product_name": "White Pearl Onions",
+    "product_name": "Carrots Basket",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "175 g",
-      "price_per_100g": ""
-    },
-    "img_src": "https://product-images.metro.ca/images/ha6/ha5/8893820469278.jpg"
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.59" },
+    "img_src": "https://product-images.metro.ca/images/h9a/h8c/9262051196958.jpg"
+  },
+  {
+    "product_name": "Yellow Bean Basket",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.59" },
+    "img_src": "https://product-images.metro.ca/images/h4f/h3c/9262123647006.jpg"
   },
   {
     "product_name": "Organic Celery Hearts",
@@ -1898,42 +1547,24 @@
     "img_src": "https://product-images.metro.ca/images/h09/he7/8837351243806.jpg"
   },
   {
-    "product_name": "Carrots Basket",
+    "product_name": "Bicolor Corn",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_individually": { "is": true, "price_per_item": "0.30" },
     "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.59"
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
     },
-    "img_src": "https://product-images.metro.ca/images/h9a/h8c/9262051196958.jpg"
-  },
-  {
-    "product_name": "Yellow Bean Basket",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.59"
-    },
-    "img_src": "https://product-images.metro.ca/images/h4f/h3c/9262123647006.jpg"
+    "img_src": "https://product-images.metro.ca/images/hdd/h82/8871433699358.jpg"
   },
   {
     "product_name": "Basket of Local White Creamer Potatoes",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.27"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.27" },
     "img_src": "https://product-images.metro.ca/images/h48/h20/9247845548062.jpg"
   },
   {
@@ -1941,12 +1572,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.59"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.59" },
     "img_src": "https://product-images.metro.ca/images/h58/he7/9262051164190.jpg"
   },
   {
@@ -1954,12 +1580,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.27"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.27" },
     "img_src": "https://product-images.metro.ca/images/h8d/h7f/9247871041566.jpg"
   },
   {
@@ -1967,12 +1588,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1.5L",
-      "price_per_100g": "0.27"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5L", "price_per_100g": "0.27" },
     "img_src": "https://product-images.metro.ca/images/hec/h00/9247845482526.jpg"
   },
   {
@@ -1980,12 +1596,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "1un",
-      "price_per_100g": "0.38"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1un", "price_per_100g": "0.38" },
     "img_src": "https://product-images.metro.ca/images/h21/h31/10461906108446.jpg"
   },
   {
@@ -1993,12 +1604,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "335g",
-      "price_per_100g": "1.60"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "335g", "price_per_100g": "1.60" },
     "img_src": "https://product-images.metro.ca/images/hcd/hcd/9289085517854.jpg"
   },
   {
@@ -2006,12 +1612,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "315g",
-      "price_per_100g": "1.84"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "315g", "price_per_100g": "1.84" },
     "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
@@ -2019,12 +1620,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "325g",
-      "price_per_100g": "0.92"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "325g", "price_per_100g": "0.92" },
     "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
@@ -2032,12 +1628,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.49",
-      "units_per_package": "245g",
-      "price_per_100g": "1.00"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "245g", "price_per_100g": "1.00" },
     "img_src": "https://product-images.metro.ca/images/h20/h5a/9288748531742.jpg"
   },
   {
@@ -2045,12 +1636,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "1.99",
-      "units_per_package": "260g",
-      "price_per_100g": "0.77"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "260g", "price_per_100g": "0.77" },
     "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
@@ -2058,12 +1644,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "225g",
-      "price_per_100g": "1.33"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "225g", "price_per_100g": "1.33" },
     "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
@@ -2071,12 +1652,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "227g",
-      "price_per_100g": "1.54"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "1.54" },
     "img_src": "https://product-images.metro.ca/images/h43/h4e/10073346637854.jpg"
   },
   {
@@ -2084,12 +1660,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/he1/h11/10882783019038.jpg"
   },
   {
@@ -2097,12 +1668,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "3lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "3lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/he2/hb6/10882785148958.jpg"
   },
   {
@@ -2110,12 +1676,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/h19/h33/9877662138398.jpg"
   },
   {
@@ -2123,12 +1684,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "100g",
-      "price_per_100g": "4.49"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "100g", "price_per_100g": "4.49" },
     "img_src": "https://product-images.metro.ca/images/hc0/h5e/9182778884126.jpg"
   },
   {
@@ -2136,12 +1692,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/hd0/heb/10315939905566.jpg"
   },
   {
@@ -2149,12 +1700,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/h9b/h0f/8898303262750.jpg"
   },
   {
@@ -2162,12 +1708,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "200g",
-      "price_per_100g": "2.50"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "200g", "price_per_100g": "2.50" },
     "img_src": "https://product-images.metro.ca/images/h9a/h83/9906546802718.jpg"
   },
   {
@@ -2182,6 +1723,19 @@
       "price_per_100g": ""
     },
     "img_src": "https://product-images.metro.ca/images/hca/h72/9761232846878.jpg"
+  },
+  {
+    "product_name": "Local Purple Cauliflower",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.99",
+      "units_per_package": "1 un",
+      "price_per_100g": ""
+    },
+    "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
     "product_name": "Local red tomato",
@@ -2201,12 +1755,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "140g",
-      "price_per_100g": "3.56"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "140g", "price_per_100g": "3.56" },
     "img_src": "https://product-images.metro.ca/images/hf3/h88/9967719874590.jpg"
   },
   {
@@ -2214,12 +1763,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "112g",
-      "price_per_100g": "4.46"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "112g", "price_per_100g": "4.46" },
     "img_src": "https://product-images.metro.ca/images/h20/h55/9967719612446.jpg"
   },
   {
@@ -2227,12 +1771,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "350g",
-      "price_per_100g": "1.14"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "350g", "price_per_100g": "1.14" },
     "img_src": "https://product-images.metro.ca/images/h17/h38/10227504709662.jpg"
   },
   {
@@ -2240,12 +1779,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.69",
-      "units_per_package": "283g",
-      "price_per_100g": "1.30"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "1.30" },
     "img_src": "https://product-images.metro.ca/images/h8c/h26/10437664768030.jpg"
   },
   {
@@ -2253,12 +1787,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/h12/h25/9658184663070.jpg"
   },
   {
@@ -2266,12 +1795,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/ha2/hf0/9658185580574.jpg"
   },
   {
@@ -2279,12 +1803,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/ha3/hc9/9658254196766.jpg"
   },
   {
@@ -2292,12 +1811,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "680g",
-      "price_per_100g": "0.73"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "680g", "price_per_100g": "0.73" },
     "img_src": "https://product-images.metro.ca/images/h28/h36/10249113272350.jpg"
   },
   {
@@ -2305,12 +1819,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.10"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.10" },
     "img_src": "https://product-images.metro.ca/images/hbe/hda/10315938365470.jpg"
   },
   {
@@ -2318,12 +1827,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "24.00",
-      "units_per_package": "150g",
-      "price_per_100g": "1.33"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "150g", "price_per_100g": "1.33" },
     "img_src": "https://product-images.metro.ca/images/hc1/h41/9910585950238.jpg"
   },
   {
@@ -2331,12 +1835,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "125g",
-      "price_per_100g": "3.99"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "125g", "price_per_100g": "3.99" },
     "img_src": "https://product-images.metro.ca/images/hb7/h05/10464835797022.jpg"
   },
   {
@@ -2344,12 +1843,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "8.99",
-      "units_per_package": "454g",
-      "price_per_100g": "1.98"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "1.98" },
     "img_src": "https://product-images.metro.ca/images/hd1/h6b/10300170469406.jpg"
   },
   {
@@ -2357,26 +1851,8 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "142g",
-      "price_per_100g": "2.81"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "142g", "price_per_100g": "2.81" },
     "img_src": "https://product-images.metro.ca/images/hfc/hcd/10715824062494.jpg"
-  },
-  {
-    "product_name": "Local Purple Cauliflower",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "1 un",
-      "price_per_100g": ""
-    },
-    "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
   },
   {
     "product_name": "Local Rainbow Swiss Chard",
@@ -2431,6 +1907,32 @@
     "img_src": "https://product-images.metro.ca/images/hf7/h4c/9825099579422.jpg"
   },
   {
+    "product_name": "Broccoli Crown",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "2.00",
+      "units_per_package": "1 un",
+      "price_per_100g": ""
+    },
+    "img_src": "https://product-images.metro.ca/images/h16/hf9/10892958367774.jpg"
+  },
+  {
+    "product_name": "Organic Field Radish",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "1.99",
+      "units_per_package": "1 bunch",
+      "price_per_100g": ""
+    },
+    "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
+  },
+  {
     "product_name": "Frisee Lettuces",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
@@ -2444,30 +1946,17 @@
     "img_src": "https://product-images.metro.ca/images/hac/h93/10109291003934.jpg"
   },
   {
-    "product_name": "Fleur De Mirabel Lettuce Duo",
+    "product_name": "Yellow Vidalia Onion",
     "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_by_weight": { "is": true, "price_per_lb": "2.99", "price_per_kg": "6.59" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "1 un",
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
       "price_per_100g": ""
     },
-    "img_src": "https://product-images.metro.ca/images/h9c/haa/10109356408862.jpg"
-  },
-  {
-    "product_name": "Broccoli Crown",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.00",
-      "units_per_package": "1 un",
-      "price_per_100g": ""
-    },
-    "img_src": "https://product-images.metro.ca/images/h16/hf9/10892958367774.jpg"
+    "img_src": "https://product-images.metro.ca/images/hbb/h8a/8835051749406.jpg"
   },
   {
     "product_name": "Yellow Zucchini",
@@ -2509,29 +1998,11 @@
     "img_src": "https://product-images.metro.ca/images/h4c/h3d/9246490460190.jpg"
   },
   {
-    "product_name": "Bicolor Corn",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": true, "price_per_item": "0.30" },
-    "sold_by_package": {
-      "is": false,
-      "price_per_package": "",
-      "units_per_package": "",
-      "price_per_100g": ""
-    },
-    "img_src": "https://product-images.metro.ca/images/hdd/h82/8871433699358.jpg"
-  },
-  {
     "product_name": "Organic Mini Sweet Peppers",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "227g",
-      "price_per_100g": "2.20"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "2.20" },
     "img_src": "https://product-images.metro.ca/images/h0a/h12/9022446731294.jpg"
   },
   {
@@ -2539,12 +2010,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "175g",
-      "price_per_100g": "1.99"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "175g", "price_per_100g": "1.99" },
     "img_src": "https://product-images.metro.ca/images/h07/ha0/8889419726878.jpg"
   },
   {
@@ -2552,12 +2018,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "70g",
-      "price_per_100g": "5.70"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "70g", "price_per_100g": "5.70" },
     "img_src": "https://product-images.metro.ca/images/he7/he6/8889285705758.jpg"
   },
   {
@@ -2565,12 +2026,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "60g",
-      "price_per_100g": "6.65"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "60g", "price_per_100g": "6.65" },
     "img_src": "https://product-images.metro.ca/images/h93/h17/8889383223326.jpg"
   },
   {
@@ -2578,12 +2034,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "7.99",
-      "units_per_package": "680g",
-      "price_per_100g": "1.18"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "680g", "price_per_100g": "1.18" },
     "img_src": "https://product-images.metro.ca/images/hab/h52/9751030202398.jpg"
   },
   {
@@ -2591,12 +2042,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "170g",
-      "price_per_100g": "3.52"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "170g", "price_per_100g": "3.52" },
     "img_src": "https://product-images.metro.ca/images/ha9/h61/8858944569374.jpg"
   },
   {
@@ -2604,12 +2050,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "500g",
-      "price_per_100g": "1.00"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "500g", "price_per_100g": "1.00" },
     "img_src": "https://product-images.metro.ca/images/hc8/h32/8831571918878.jpg"
   },
   {
@@ -2617,12 +2058,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "1.99",
-      "units_per_package": "340g",
-      "price_per_100g": "0.59"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "0.59" },
     "img_src": "https://product-images.metro.ca/images/hda/h6a/8898248212510.jpg"
   },
   {
@@ -2630,12 +2066,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "250mL",
-      "price_per_100g": "1.20"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "250mL", "price_per_100g": "1.20" },
     "img_src": "https://product-images.metro.ca/images/h56/hd3/8831550619678.jpg"
   },
   {
@@ -2643,12 +2074,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.22"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.22" },
     "img_src": "https://product-images.metro.ca/images/hd6/h19/9533207609374.jpg"
   },
   {
@@ -2656,12 +2082,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "430g",
-      "price_per_100g": "1.63"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "430g", "price_per_100g": "1.63" },
     "img_src": "https://product-images.metro.ca/images/hf4/h1e/9438018502686.jpg"
   },
   {
@@ -2669,12 +2090,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "175g",
-      "price_per_100g": "1.99"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "175g", "price_per_100g": "1.99" },
     "img_src": "https://product-images.metro.ca/images/hea/h89/8889358385182.jpg"
   },
   {
@@ -2682,12 +2098,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "2lb",
-      "price_per_100g": "0.66"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "2lb", "price_per_100g": "0.66" },
     "img_src": "https://product-images.metro.ca/images/ha7/h20/10258410307614.jpg"
   },
   {
@@ -2695,12 +2106,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "454g",
-      "price_per_100g": "0.88"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.88" },
     "img_src": "https://product-images.metro.ca/images/h55/h65/10123723210782.jpg"
   },
   {
@@ -2708,12 +2114,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "40g",
-      "price_per_100g": "9.98"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "40g", "price_per_100g": "9.98" },
     "img_src": "https://product-images.metro.ca/images/h3b/h23/8889268404254.jpg"
   },
   {
@@ -2721,12 +2122,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "14g",
-      "price_per_100g": "35.64"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "35.64" },
     "img_src": "https://product-images.metro.ca/images/h7b/h31/8893497114654.jpg"
   },
   {
@@ -2734,12 +2130,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "1lb",
-      "price_per_100g": "1.32"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1lb", "price_per_100g": "1.32" },
     "img_src": "https://product-images.metro.ca/images/h55/ha8/8893684809758.jpg"
   },
   {
@@ -2747,39 +2138,37 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "283g",
-      "price_per_100g": "1.41"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "1.41" },
     "img_src": "https://product-images.metro.ca/images/hfe/hdf/9363137822750.jpg"
   },
   {
-    "product_name": "Organic Field Radish",
+    "product_name": "Braided Garlic",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "500g", "price_per_100g": "1.00" },
+    "img_src": "https://product-images.metro.ca/images/hc8/hac/8890910703646.jpg"
+  },
+  {
+    "product_name": "Minced Ginger",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "230g", "price_per_100g": "2.60" },
+    "img_src": "https://product-images.metro.ca/images/hb0/ha6/9640209514526.jpg"
+  },
+  {
+    "product_name": "Fleur De Mirabel Lettuce Duo",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
       "is": true,
-      "price_per_package": "1.99",
-      "units_per_package": "1 bunch",
+      "price_per_package": "4.49",
+      "units_per_package": "1 un",
       "price_per_100g": ""
     },
-    "img_src": "https://www.metro.ca/images/shared/large/default--400x400.jpg?v=4.63.0+r1796"
-  },
-  {
-    "product_name": "Yellow Vidalia Onion",
-    "store": "metro",
-    "sold_by_weight": { "is": true, "price_per_lb": "2.99", "price_per_kg": "6.59" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": false,
-      "price_per_package": "",
-      "units_per_package": "",
-      "price_per_100g": ""
-    },
-    "img_src": "https://product-images.metro.ca/images/hbb/h8a/8835051749406.jpg"
+    "img_src": "https://product-images.metro.ca/images/h9c/haa/10109356408862.jpg"
   },
   {
     "product_name": "Endive",
@@ -2808,42 +2197,11 @@
     "img_src": "https://product-images.metro.ca/images/h86/he5/8867952263198.jpg"
   },
   {
-    "product_name": "Braided Garlic",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "500g",
-      "price_per_100g": "1.00"
-    },
-    "img_src": "https://product-images.metro.ca/images/hc8/hac/8890910703646.jpg"
-  },
-  {
-    "product_name": "Minced Ginger",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "230g",
-      "price_per_100g": "2.60"
-    },
-    "img_src": "https://product-images.metro.ca/images/hb0/ha6/9640209514526.jpg"
-  },
-  {
     "product_name": "Mixed Pearl Onions",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.49",
-      "units_per_package": "175g",
-      "price_per_100g": "1.99"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "175g", "price_per_100g": "1.99" },
     "img_src": "https://product-images.metro.ca/images/h66/hd1/8938665246750.jpg"
   },
   {
@@ -2851,12 +2209,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "115g",
-      "price_per_100g": "4.34"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "115g", "price_per_100g": "4.34" },
     "img_src": "https://product-images.metro.ca/images/h95/hf0/9830081429534.jpg"
   },
   {
@@ -2864,12 +2217,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "200g",
-      "price_per_100g": "2.50"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "200g", "price_per_100g": "2.50" },
     "img_src": "https://product-images.metro.ca/images/h08/ha0/10225266688030.jpg"
   },
   {
@@ -2877,12 +2225,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "14g",
-      "price_per_100g": "42.79"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "42.79" },
     "img_src": "https://product-images.metro.ca/images/hd1/he7/8889156927518.jpg"
   },
   {
@@ -2890,12 +2233,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "10lb",
-      "price_per_100g": "0.15"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "10lb", "price_per_100g": "0.15" },
     "img_src": "https://product-images.metro.ca/images/hc1/h8b/8893870276638.jpg"
   },
   {
@@ -2903,12 +2241,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "14g",
-      "price_per_100g": "42.79"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "42.79" },
     "img_src": "https://product-images.metro.ca/images/h59/h52/8889158828062.jpg"
   },
   {
@@ -2916,12 +2249,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "17.5g",
-      "price_per_100g": "34.23"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "17.5g", "price_per_100g": "34.23" },
     "img_src": "https://product-images.metro.ca/images/hef/h50/9530276184094.jpg"
   },
   {
@@ -2929,12 +2257,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "370g",
-      "price_per_100g": "0.81"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "370g", "price_per_100g": "0.81" },
     "img_src": "https://product-images.metro.ca/images/ha1/h4e/9130123526174.jpg"
   },
   {
@@ -2942,12 +2265,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "14g",
-      "price_per_100g": "35.64"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "35.64" },
     "img_src": "https://product-images.metro.ca/images/h10/h07/8889430343710.jpg"
   },
   {
@@ -2955,12 +2273,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "14g",
-      "price_per_100g": "42.79"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "42.79" },
     "img_src": "https://product-images.metro.ca/images/h67/h58/8893938171934.jpg"
   },
   {
@@ -2968,12 +2281,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/h58/h4c/9354684432414.jpg"
   },
   {
@@ -2981,12 +2289,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "14g",
-      "price_per_100g": "42.79"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "42.79" },
     "img_src": "https://product-images.metro.ca/images/h51/hfb/8907100815390.jpg"
   },
   {
@@ -2994,12 +2297,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "14g",
-      "price_per_100g": "42.79"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "14g", "price_per_100g": "42.79" },
     "img_src": "https://product-images.metro.ca/images/h39/h4a/8906973872158.jpg"
   },
   {
@@ -3007,12 +2305,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "340g",
-      "price_per_100g": "1.47"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "340g", "price_per_100g": "1.47" },
     "img_src": "https://product-images.metro.ca/images/hfd/he0/9335904895006.jpg"
   },
   {
@@ -3020,12 +2313,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.49",
-      "units_per_package": "125g",
-      "price_per_100g": "3.59"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "125g", "price_per_100g": "3.59" },
     "img_src": "https://product-images.metro.ca/images/hc6/h82/8898271215646.jpg"
   },
   {
@@ -3033,13 +2321,24 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "350g",
-      "price_per_100g": "0.85"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "350g", "price_per_100g": "0.85" },
     "img_src": "https://product-images.metro.ca/images/h2b/h13/8893560946718.jpg"
+  },
+  {
+    "product_name": "Sweet Cherry Tomato",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "283g", "price_per_100g": "1.41" },
+    "img_src": "https://product-images.metro.ca/images/h1a/hba/9363135103006.jpg"
+  },
+  {
+    "product_name": "Sliced Mushroom Blend, Shiitake, Cremini, Button Mus...",
+    "store": "metro",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "units_per_package": "227g", "price_per_100g": "2.64" },
+    "img_src": "https://product-images.metro.ca/images/h2c/h9a/8894355963934.jpg"
   },
   {
     "product_name": "Garlic",
@@ -3120,42 +2419,11 @@
     "img_src": "https://product-images.metro.ca/images/ha9/h26/8832754909214.jpg"
   },
   {
-    "product_name": "Sweet Cherry Tomato",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "3.99",
-      "units_per_package": "283g",
-      "price_per_100g": "1.41"
-    },
-    "img_src": "https://product-images.metro.ca/images/h1a/hba/9363135103006.jpg"
-  },
-  {
-    "product_name": "Sliced Mushroom Blend, Shiitake, Cremini, Button Mus...",
-    "store": "metro",
-    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "227g",
-      "price_per_100g": "2.64"
-    },
-    "img_src": "https://product-images.metro.ca/images/h2c/h9a/8894355963934.jpg"
-  },
-  {
     "product_name": "Baby-Cut Carrots",
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "4.99",
-      "units_per_package": "907g",
-      "price_per_100g": "0.55"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "907g", "price_per_100g": "0.55" },
     "img_src": "https://product-images.metro.ca/images/h51/h24/8894032805918.jpg"
   },
   {
@@ -3163,12 +2431,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "454g",
-      "price_per_100g": "0.66"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.66" },
     "img_src": "https://product-images.metro.ca/images/h71/h69/8898184183838.jpg"
   },
   {
@@ -3176,12 +2439,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "10lb",
-      "price_per_100g": "0.15"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "10lb", "price_per_100g": "0.15" },
     "img_src": "https://product-images.metro.ca/images/h95/hb0/8894241538078.jpg"
   },
   {
@@ -3189,12 +2447,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "",
-      "price_per_100g": "3.52"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "", "price_per_100g": "3.52" },
     "img_src": "https://product-images.metro.ca/images/h92/h9c/8893499047966.jpg"
   },
   {
@@ -3202,12 +2455,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/hd0/hf2/8898225012766.jpg"
   },
   {
@@ -3215,12 +2463,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "1kg",
-      "price_per_100g": "0.60"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1kg", "price_per_100g": "0.60" },
     "img_src": "https://product-images.metro.ca/images/hca/h6c/8890414727198.jpg"
   },
   {
@@ -3228,12 +2471,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.69",
-      "units_per_package": "2lb",
-      "price_per_100g": "0.30"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "2lb", "price_per_100g": "0.30" },
     "img_src": "https://product-images.metro.ca/images/he1/h6a/8898277769246.jpg"
   },
   {
@@ -3241,12 +2479,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.49",
-      "units_per_package": "85g",
-      "price_per_100g": "2.93"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "85g", "price_per_100g": "2.93" },
     "img_src": "https://product-images.metro.ca/images/hb8/hac/9145725255710.jpg"
   },
   {
@@ -3254,12 +2487,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "1.5lb",
-      "price_per_100g": "1.03"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5lb", "price_per_100g": "1.03" },
     "img_src": "https://product-images.metro.ca/images/h03/h4f/9363137036318.jpg"
   },
   {
@@ -3267,12 +2495,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "1.5lb",
-      "price_per_100g": "1.03"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5lb", "price_per_100g": "1.03" },
     "img_src": "https://product-images.metro.ca/images/h92/h61/8922078937118.jpg"
   },
   {
@@ -3280,12 +2503,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "170g",
-      "price_per_100g": "3.52"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "170g", "price_per_100g": "3.52" },
     "img_src": "https://product-images.metro.ca/images/h26/h24/8873568895006.jpg"
   },
   {
@@ -3293,12 +2511,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "1.5lb",
-      "price_per_100g": "1.03"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1.5lb", "price_per_100g": "1.03" },
     "img_src": "https://product-images.metro.ca/images/hb2/hb1/9363136053278.jpg"
   },
   {
@@ -3306,12 +2519,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "454g",
-      "price_per_100g": "0.66"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "454g", "price_per_100g": "0.66" },
     "img_src": "https://product-images.metro.ca/images/h20/h19/9335893852190.jpg"
   },
   {
@@ -3319,12 +2527,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "397g",
-      "price_per_100g": "1.51"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "397g", "price_per_100g": "1.51" },
     "img_src": "https://product-images.metro.ca/images/h21/h01/8894054826014.jpg"
   },
   {
@@ -3332,12 +2535,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "2.99",
-      "units_per_package": "85g",
-      "price_per_100g": "3.52"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "85g", "price_per_100g": "3.52" },
     "img_src": "https://product-images.metro.ca/images/h35/hed/9145637142558.jpg"
   },
   {
@@ -3345,12 +2543,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "1kg",
-      "price_per_100g": "0.60"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "1kg", "price_per_100g": "0.60" },
     "img_src": "https://product-images.metro.ca/images/hc0/ha7/8898299985950.jpg"
   },
   {
@@ -3358,12 +2551,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "6.99",
-      "units_per_package": "681g",
-      "price_per_100g": "1.03"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "681g", "price_per_100g": "1.03" },
     "img_src": "https://product-images.metro.ca/images/he3/h2f/10822867845150.jpg"
   },
   {
@@ -3371,12 +2559,7 @@
     "store": "metro",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": {
-      "is": true,
-      "price_per_package": "5.99",
-      "units_per_package": "5lb",
-      "price_per_100g": "0.26"
-    },
+    "sold_by_package": { "is": true, "units_per_package": "5lb", "price_per_100g": "0.26" },
     "img_src": "https://product-images.metro.ca/images/hb6/h80/9145809993758.jpg"
   },
   {

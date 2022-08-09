@@ -1,7 +1,6 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-// 107 !!!!!!!!!!!
 // CONFIGURE SCRAPERAPI
 // require("dotenv").config({ path: "./.env" });
 // const { API_KEY } = process.env;
@@ -50,7 +49,7 @@ const paginatedScraper = async (url) => {
           is: true,
           price_per_item: (priceNoSpaces = result
             .querySelector("div.pi-secondary-price > span")
-            .textContent.replace(/\s\D+/g, "")), // only the #
+            .textContent.replace(/\s\D+/g, "")).split("$")[1], // only the #
         },
         sold_by_package: {
           is: false,
@@ -66,7 +65,7 @@ const paginatedScraper = async (url) => {
     });
 
     // For all items sold in a package, that also have price/100g
-    const soldByPackage100g = await page.$$eval(".tile-product.item-addToCart", (results) => {
+    const soldByPackage = await page.$$eval(".tile-product.item-addToCart", (results) => {
       results = results.filter((result) =>
         result.querySelector(".pi-secondary-price").textContent.includes("/100")
       );
@@ -102,8 +101,8 @@ const paginatedScraper = async (url) => {
       return array;
     });
 
-    // For all items sold in a package, without price/100g
-    const soldByPackage = await page.$$eval(".tile-product.item-addToCart", (results) => {
+    // For all items sold by bunch/unit, without price/100g (e.g. kale, radishes)
+    const soldByUnit = await page.$$eval(".tile-product.item-addToCart", (results) => {
       results = results.filter(
         (result) =>
           result.querySelector(".pi-secondary-price").textContent.includes("un.") &&
@@ -124,8 +123,8 @@ const paginatedScraper = async (url) => {
         sold_by_package: {
           is: true,
           price_per_package: (priceNoSpaces = result
-            .querySelector("div.pi-secondary-price > span") // ?????
-            .textContent.replace(/\s\D+/g, "")), // only #
+            .querySelector("div.pi-secondary-price > span")
+            .textContent.replace(/\s\D+/g, "")).split("$")[1], // only #
           units_per_package: result.querySelector(".pt-weight").textContent,
           price_per_100g: "",
         },
@@ -148,10 +147,12 @@ const paginatedScraper = async (url) => {
           is: true,
           price_per_lb: (priceNoSpaces = result
             .querySelector("div.pi-secondary-price > span:nth-child(2)")
-            .textContent.replace(/\s\D+/g, "")), // only #
+            .textContent.replace(/\s\D+/g, "") // remove all non-digits
+            .split("$")[1]), // remove $ at beginning
           price_per_kg: (priceNoSpaces = result
             .querySelector("div.pi-secondary-price > span:nth-child(1)")
-            .textContent.replace(/\s\D+/g, "")), // only #
+            .textContent.replace(/\s\D+/g, "")
+            .split("$")[1]),
         },
         sold_individually: {
           is: false,
@@ -174,10 +175,10 @@ const paginatedScraper = async (url) => {
     soldIndividually.forEach((element) => {
       scrapedData.push(element);
     });
-    soldByPackage100g.forEach((element) => {
+    soldByPackage.forEach((element) => {
       scrapedData.push(element);
     });
-    soldByPackage.forEach((element) => {
+    soldByUnit.forEach((element) => {
       scrapedData.push(element);
     });
     soldByWeight.forEach((element) => {
@@ -209,10 +210,12 @@ const paginatedScraper = async (url) => {
   return scrapedData;
 };
 
-paginatedScraper(
-  "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-2"
-);
+// paginatedScraper(
+//   "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-11"
+// );
 // paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
+
+///////////
 
 // close dialog.dismiss if necessary?
 // how to scrape last page, which has no "next" button?
