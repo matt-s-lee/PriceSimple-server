@@ -1,12 +1,18 @@
 const express = require("express");
 const morgan = require("morgan");
+const { getAllProducts } = require("./handlers/productHandlers");
 
 express()
   .use(morgan("tiny"))
   .use(express.json())
+  .use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    next();
+  })
+  // CORS error fix: https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9
 
-  // // PRODUCT ENDPOINTS
-  // .get("/all-products")
+  // PRODUCT ENDPOINTS
+  .get("/all-products", getAllProducts)
 
   // // CARTS ENDPOINTS
   // .get("/carts/get/:user") // local storage?
