@@ -1,7 +1,7 @@
 // IGA WEBSITE
 
 const puppeteer = require("puppeteer");
-const fs = reqiure("fs");
+const fs = require("fs");
 
 const scrollScraper = async (url) => {
   // OPEN BROWSER & PAGE
@@ -10,26 +10,25 @@ const scrollScraper = async (url) => {
   });
   const page = await browser.newPage();
   console.log(`Navigating to ${url}`);
+  await page.setViewport({ width: 1366, height: 10000 });
+
+  let scrapedData = [];
 
   try {
-    await page.goto(url, { timeout: 60000 });
+    await page.goto(url, { timeout: 120000 });
 
-    let scrapedData = [];
-    let isBottom = false;
-    const scrollPage = setInterval(async () => {
-      // scrapedData = await page.evaluate(() => {
-      //   const items = Array.from(document.querySelectorAll(".quote"));
-      //   return items.map((item) => ({
-      //     quote: item.querySelector(".text").textContent,
-      //     author: item.querySelector("small").textContent,
-      //   }));
-
-      const soldIndividually = await page.$$eval(".base__Wrapper-sc-1m8b7ry-7", (results) => {
+    const soldIndividually = await page.$$eval(
+      ".base__Wrapper-sc-1m8b7ry-7.base__FixedHeightWrapper-sc-1m8b7ry-43.gYtJUs.loZIQJ.viewports-enabled-standard-fop__ViewportsEnabledFop-sc-1y5mdxx-0.ijsLHe",
+      // "#main > div:nth-child(2) > div > div > div.Col-sc-dzwtyp-0.bKNFFR > div > div > div",
+      (results) => {
         results = results.filter((result) =>
-          result.querySelector("text__Text-sc-1ddlex6-0 hdYQli").textContent.includes("item")
+          result
+            .querySelector("span.text__Text-sc-1ddlex6-0.hdYQli")
+            .textContent.includes("item")
         );
+        console.log("results", results);
         let array = results.map((result) => ({
-          product_name: result.querySelector(".pt-title").textContent,
+          product_name: result.querySelector("h3").textContent,
           store: "iga",
           sold_by_weight: {
             is: false,
@@ -38,9 +37,9 @@ const scrollScraper = async (url) => {
           },
           sold_individually: {
             is: true,
-            price_per_item: (priceNoSpaces = result
-              .querySelector("div.pi-secondary-price > span")
-              .textContent.replace(/\s\D+/g, "")).split("$")[1], // only the #
+            price_per_item: (priceNoSpaces = result.querySelector(
+              "div.base__PriceWrapper-sc-1m8b7ry-29 > strong"
+            ).textContent).split("$")[1], // only the #
           },
           sold_by_package: {
             is: false,
@@ -48,22 +47,25 @@ const scrollScraper = async (url) => {
             units_per_package: "",
             price_per_100g: "",
           },
-          img_src: result.querySelector(
-            "div.tile-product__top-section__visuals > a > picture > img"
-          ).src,
-          link: result.querySelector(
-            "div.tile-product__top-section__visuals > a > picture > img"
-          ).src,
+          img_src: result.querySelector(".fop__Image-sc-1n8du9a-0").src,
+          link: result.querySelector("h3 > a").href,
         }));
+        console.log("array", array);
         return array;
-      });
+      }
+    );
 
-      const soldByPackage = await page.$$eval(".tile-product.item-addToCart", (results) => {
-        results = results.filter((result) =>
-          result.querySelector(".pi-secondary-price").textContent.includes("/100")
+    const soldByPackage = await page.$$eval(
+      ".base__Wrapper-sc-1m8b7ry-7.base__FixedHeightWrapper-sc-1m8b7ry-43.gYtJUs.loZIQJ.viewports-enabled-standard-fop__ViewportsEnabledFop-sc-1y5mdxx-0.ijsLHe",
+      (results) => {
+        results = results.filter(
+          (result) =>
+            !result
+              .querySelector(".text__Text-sc-1ddlex6-0.hdYQli")
+              .textContent.includes("item")
         );
         let array = results.map((result) => ({
-          product_name: result.querySelector(".pt-title").textContent,
+          product_name: result.querySelector("h3").textContent,
           store: "iga",
           sold_by_weight: {
             is: false,
@@ -76,43 +78,42 @@ const scrollScraper = async (url) => {
           },
           sold_by_package: {
             is: true,
-            price_per_package: (priceNoSpaces = result
-              .querySelector(".pi-sale-price")
-              .textContent.replace(/\s\D+/g, "")), // only #
-            units_per_package: (priceNoSpaces = result
-              .querySelector(".pt-weight")
-              .textContent.replace(/\s/g, "")), // no spaces
-            price_per_100g: (priceNoSpaces = result
-              .querySelector(".pi-secondary-price")
-              .textContent.replace(/\s\D/g, "") // only # (no units/$)
-              .split("100")[0]),
+            price_per_package: (priceNoSpaces = result.querySelector(
+              "div.base__PriceWrapper-sc-1m8b7ry-29 > strong"
+            ).textContent).split("$")[1], // only #
+            // units_per_package: result.querySelector(
+            //   "span.text__Text-sc-1ddlex6-0.base__SizeText-sc-1m8b7ry-40.fKIuoi.hvxTVE"
+            // ).textContent,
+            price_per_100g: (priceNoSpaces = result.querySelector(
+              "span.text__Text-sc-1ddlex6-0.hdYQli"
+            ).textContent).replace(/[{()}]/g, ""),
+            // .split("$")[1], // only # (no spaces or letters)
           },
-          img_src: result.querySelector(
-            "div.tile-product__top-section__visuals > a > picture > img"
-          ).src,
+          img_src: result.querySelector(".fop__Image-sc-1n8du9a-0").src,
+          link: result.querySelector("h3 > a").href,
         }));
         return array;
-      });
-      soldIndividually.forEach((element) => {
-        scrapedData.push(element);
-      });
-      soldByPackage.forEach((element) => {
-        scrapedData.push(element);
-      });
-
-      let scrollHeight = await page.evaluate("document.body.scrollHeight");
-      await page.evaluate(`window.scrollTo(0, ${scrollHeight})`);
-      isBottom = await page.evaluate(
-        `document.scrollingElement.scrollTop + window.innerHeight >= document.scrollingElement.scrollHeight`
-      );
-      // https://stackoverflow.com/questions/51529332/puppeteer-scroll-down-until-you-cant-anymore, 2nd answer
-      if (isBottom) {
-        console.log("Arrived at the bottom of the page");
-        clearInterval(scrollPage);
-        await browser.close();
       }
-      console.log(scrapedData.length);
-    }, 3000);
+    );
+    soldIndividually.forEach((element) => {
+      scrapedData.push(element);
+    });
+    soldByPackage.forEach((element) => {
+      scrapedData.push(element);
+    });
+    fs.readFile("igaItems.json", function (err, data) {
+      const json = JSON.parse(data);
+      scrapedData.forEach((element) => {
+        json.push(element);
+      });
+      fs.writeFile("igaItems.json", JSON.stringify(json), function (err) {
+        if (err) {
+          return console.log(err);
+        }
+        console.log("Data was appended");
+      });
+    });
+    console.log(scrapedData.length);
   } catch (err) {
     console.log(err);
   } finally {
@@ -120,4 +121,8 @@ const scrollScraper = async (url) => {
   }
 };
 
-scrollScraper("http://quotes.toscrape.com/scroll");
+scrollScraper(
+  "https://voila.ca/products?sortBy=favorite&sublocationId=34cfd096-474c-4bfd-b694-24e3f6770500"
+  // "https://voila.ca/products?sortBy=favorite&sublocationId=5e6a04b2-64de-4f2a-b53d-aeaa5b80c768"
+  // "https://voila.ca/products?sortBy=favorite&sublocationId=cff0e150-929b-4c5f-aa67-a84f7c6deb71"
+);

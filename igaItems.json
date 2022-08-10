@@ -1,0 +1,177 @@
+[
+  {
+    "product_name": "Asparagus 454 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "454g",
+      "price_per_100g": "1.32"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/22a26e6d-e14e-4862-97d8-5dba52651048/300x300.jpg",
+    "link": "https://voila.ca/products/974034EA/details"
+  },
+  {
+    "product_name": "Organic Asparagus 325 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "7.99",
+      "units_per_package": "325g",
+      "price_per_100g": "$0.02 per gram"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/66fb72fc-a4bd-4dd6-8581-dfb0b9e46bad/300x300.jpg",
+    "link": "https://voila.ca/products/868023EA/details"
+  },
+  {
+    "product_name": "Beansprout 454 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "2.99",
+      "units_per_package": "454g",
+      "price_per_100g": "$0.01 per gram"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/c9e0bbea-cd3a-4591-8552-ae1ca4d445f6/300x300.jpg",
+    "link": "https://voila.ca/products/868348EA/details"
+  },
+  {
+    "product_name": "Broccoli Crowns Local 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "1.99" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/ceeffe53-7ee1-4bf2-a9eb-95dcc8d3d65e/300x300.jpg",
+    "link": "https://voila.ca/products/314971EA/details"
+  },
+  {
+    "product_name": "Brocolini (Baby Broccoli)",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "4.49" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/61b79a43-0ed3-47c4-93e9-8efe9b75a200/300x300.jpg",
+    "link": "https://voila.ca/products/842627EA/details"
+  },
+  {
+    "product_name": "Brussel Sprouts 340 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.99",
+      "units_per_package": "340g",
+      "price_per_100g": "$1.17 per 100g"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/058513b2-c986-45eb-9012-c1755dc666b3/300x300.jpg",
+    "link": "https://voila.ca/products/269940EA/details"
+  },
+  {
+    "product_name": "Celery Hearts",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "3.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/c6d8caaf-7ce9-4bd1-a028-8e66ff0d2ce3/300x300.jpg",
+    "link": "https://voila.ca/products/5291EA/details"
+  },
+  {
+    "product_name": "Celery Local 1 ea",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "1.99", "price_per_100g": "" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/003e3211-f354-4a2f-b7d3-d47efd4b15bb/300x300.jpg",
+    "link": "https://voila.ca/products/7956EA/details"
+  },
+  {
+    "product_name": "Cauliflower Local 1 ea",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "2.99", "price_per_100g": "" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/073503d4-f971-4e7f-8008-0743cbd493cc/300x300.jpg",
+    "link": "https://voila.ca/products/7950EA/details"
+  },
+  {
+    "product_name": "Corn Local Tray 3 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "5.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/6c1b0643-96c1-4b84-8a21-9fb822fae83a/300x300.jpg",
+    "link": "https://voila.ca/products/584688EA/details"
+  },
+  {
+    "product_name": "Corn On The Cob Unpeeled Local 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "0.33", "price_per_100g": "" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/d94f9bbb-9ecc-4164-bfd6-8e030f74b097/300x300.jpg",
+    "link": "https://voila.ca/products/984483EA/details"
+  },
+  {
+    "product_name": "Nature Fresh Farms Organic English Cucumbers 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/b9f0ba36-fe7d-4b73-94f1-6b5fe68f0991/300x300.jpg",
+    "link": "https://voila.ca/products/129818EA/details"
+  },
+  {
+    "product_name": "English Seedless Cucumber 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "1.49", "price_per_100g": "" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/521df664-76bf-4b06-a1b6-9455209a113c/300x300.jpg",
+    "link": "https://voila.ca/products/8280EA/details"
+  },
+  {
+    "product_name": "Italian Baby Eggplant 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "3.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/bdb7f5cd-2689-4db9-9ecb-5b232b4120a5/300x300.jpg",
+    "link": "https://voila.ca/products/868134EA/details"
+  },
+  {
+    "product_name": "Eggplant Local 1 ea",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": { "is": true, "price_per_package": "1.99", "price_per_100g": "" },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/4f2c73ab-296b-48bd-876d-62ac1e99fe69/300x300.jpg",
+    "link": "https://voila.ca/products/868139EA/details"
+  }
+]
