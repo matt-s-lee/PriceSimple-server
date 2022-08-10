@@ -22,7 +22,7 @@
       "is": true,
       "price_per_package": "7.99",
       "units_per_package": "325g",
-      "price_per_100g": "$0.02 per gram"
+      "price_per_100g": "2.00"
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/66fb72fc-a4bd-4dd6-8581-dfb0b9e46bad/300x300.jpg",
     "link": "https://voila.ca/products/868023EA/details"
@@ -36,7 +36,7 @@
       "is": true,
       "price_per_package": "2.99",
       "units_per_package": "454g",
-      "price_per_100g": "$0.01 per gram"
+      "price_per_100g": "$1.00"
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/c9e0bbea-cd3a-4591-8552-ae1ca4d445f6/300x300.jpg",
     "link": "https://voila.ca/products/868348EA/details"
@@ -45,8 +45,13 @@
     "product_name": "Broccoli Crowns Local 1 EA",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "1.99" },
+    "sold_individually": { "is": true, "price_per_item": "1.99" },
+    "sold_by_package": {
+      "is": false,
+      "units_per_package": "",
+      "price_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/ceeffe53-7ee1-4bf2-a9eb-95dcc8d3d65e/300x300.jpg",
     "link": "https://voila.ca/products/314971EA/details"
   },
@@ -54,8 +59,8 @@
     "product_name": "Brocolini (Baby Broccoli)",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "4.49" },
+    "sold_individually": { "is": true, "price_per_item": "4.49" },
+    "sold_by_package": { "is": false, "price_per_package": "" },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/61b79a43-0ed3-47c4-93e9-8efe9b75a200/300x300.jpg",
     "link": "https://voila.ca/products/842627EA/details"
   },
@@ -91,8 +96,13 @@
     "product_name": "Celery Local 1 ea",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "1.99", "price_per_100g": "" },
+    "sold_individually": { "is": true, "price_per_item": "1.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/003e3211-f354-4a2f-b7d3-d47efd4b15bb/300x300.jpg",
     "link": "https://voila.ca/products/7956EA/details"
   },
@@ -100,8 +110,13 @@
     "product_name": "Cauliflower Local 1 ea",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "2.99", "price_per_100g": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/073503d4-f971-4e7f-8008-0743cbd493cc/300x300.jpg",
     "link": "https://voila.ca/products/7950EA/details"
   },
@@ -123,8 +138,13 @@
     "product_name": "Corn On The Cob Unpeeled Local 1 EA",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "0.33", "price_per_100g": "" },
+    "sold_individually": { "is": true, "price_per_item": "0.33" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/d94f9bbb-9ecc-4164-bfd6-8e030f74b097/300x300.jpg",
     "link": "https://voila.ca/products/984483EA/details"
   },
@@ -146,8 +166,13 @@
     "product_name": "English Seedless Cucumber 1 EA",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "1.49", "price_per_100g": "" },
+    "sold_individually": { "is": true, "price_per_item": "1.49" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/521df664-76bf-4b06-a1b6-9455209a113c/300x300.jpg",
     "link": "https://voila.ca/products/8280EA/details"
   },
@@ -169,9 +194,238 @@
     "product_name": "Eggplant Local 1 ea",
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
-    "sold_individually": { "is": false, "price_per_item": "" },
-    "sold_by_package": { "is": true, "price_per_package": "1.99", "price_per_100g": "" },
+    "sold_individually": { "is": true, "price_per_item": "1.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/4f2c73ab-296b-48bd-876d-62ac1e99fe69/300x300.jpg",
     "link": "https://voila.ca/products/868139EA/details"
+  },
+  {
+    "product_name": "Bell peppers mixed 4 pack",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "4.99",
+      "units_per_package": "4",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/5c8fc656-a6db-4edb-8105-2ca9031cdb2d/300x300.jpg",
+    "link": "https://voila.ca/products/445842EA/details"
+  },
+  {
+    "product_name": "Green Pepper XL Local 1 ea",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "0.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/193bc2d8-9d99-4461-9baf-5e44739e224b/300x300.jpg",
+    "link": "https://voila.ca/products/972171EA/details"
+  },
+  {
+    "product_name": "Organic Red Peppers 2 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.29",
+      "units_per_package": "2",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/c1c71c7f-b163-42c8-8bcd-505fac4f59a8/300x300.jpg",
+    "link": "https://voila.ca/products/868332EA/details"
+  },
+  {
+    "product_name": "Organic Orange Bell Pepper 2 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.29",
+      "units_per_package": "2",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/6922acb5-8d14-4be9-b6e3-a6fc0938cbb4/300x300.jpg",
+    "link": "https://voila.ca/products/868228EA/details"
+  },
+  {
+    "product_name": "Red Peppers Sweet Pack Of 4",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "4",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/8cf3e0af-0cf0-41eb-8c5a-7bc54fb72961/300x300.jpg",
+    "link": "https://voila.ca/products/352447EA/details"
+  },
+  {
+    "product_name": "Bell Peppers Organic 2 Pack",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "6.49",
+      "units_per_package": "2",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/ce2cf0c9-f06f-475f-92dd-13a08d8cf310/300x300.jpg",
+    "link": "https://voila.ca/products/578544EA/details"
+  },
+  {
+    "product_name": "Nature Fresh Farms Mini Sweet Peppers 454 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.99",
+      "units_per_package": "454g",
+      "price_per_100g": "0.88"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/e7e1b5c0-f09e-4ce0-b0dc-2663aa1a3264/300x300.jpg",
+    "link": "https://voila.ca/products/883754EA/details"
+  },
+  {
+    "product_name": "Rainbow Peppers Large 3 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "6.99",
+      "units_per_package": "3",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/1df38110-fb83-4bc2-94ce-cfa0f1bf89cf/300x300.jpg",
+    "link": "https://voila.ca/products/113628EA/details"
+  },
+  {
+    "product_name": "Orange Pepper Extra Large 1 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.19" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/4f334cd4-6e8f-4dc1-b874-4d52d193fd10/300x300.jpg",
+    "link": "https://voila.ca/products/972345EA/details"
+  },
+  {
+    "product_name": "Yellow Pepper Extra Large 1 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.19" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/6e1f6f1b-26ec-445a-a8d5-853d5ab5196d/300x300.jpg",
+    "link": "https://voila.ca/products/972235EA/details"
+  },
+  {
+    "product_name": "Red Pepper Extra Large 1 Count",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "2.29" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/a160534c-5abb-46d2-a41a-450e885176a8/300x300.jpg",
+    "link": "https://voila.ca/products/972178EA/details"
+  },
+  {
+    "product_name": "Organic Mini Sweet Peppers 227 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.49",
+      "units_per_package": "227g",
+      "price_per_100g": "1.54"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/7edf919a-124c-48da-b8d7-8aa3f185247e/300x300.jpg",
+    "link": "https://voila.ca/products/775008EA/details"
+  },
+  {
+    "product_name": "Mini Sweet Peppers 227 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "227g",
+      "price_per_100g": "2.64"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/41ce994e-3de2-4ddd-a8c2-279ef6c233bb/300x300.jpg",
+    "link": "https://voila.ca/products/350490EA/details"
+  },
+  {
+    "product_name": "Bell Peppers Assorted 908 g",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "9.99",
+      "units_per_package": "908g",
+      "price_per_100g": "1.10"
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/2c0aeaa4-0228-4122-8505-fd60348d5762/300x300.jpg",
+    "link": "https://voila.ca/products/145154EA/details"
+  },
+  {
+    "product_name": "Brocoli Local 1 ea",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "3.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "",
+    "link": ""
+  },
+  {
+    "product_name": "Organic Broccoli 1 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": true, "price_per_item": "4.99" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
+    "img_src": "",
+    "link": ""
   }
 ]

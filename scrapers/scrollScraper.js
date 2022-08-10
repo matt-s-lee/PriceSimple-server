@@ -81,9 +81,9 @@ const scrollScraper = async (url) => {
             price_per_package: (priceNoSpaces = result.querySelector(
               "div.base__PriceWrapper-sc-1m8b7ry-29 > strong"
             ).textContent).split("$")[1], // only #
-            // units_per_package: result.querySelector(
-            //   "span.text__Text-sc-1ddlex6-0.base__SizeText-sc-1m8b7ry-40.fKIuoi.hvxTVE"
-            // ).textContent,
+            units_per_package: result.querySelector(
+              "span.text__Text-sc-1ddlex6-0.base__SizeText-sc-1m8b7ry-40.fKIuoi.hvxTVE"
+            ).textContent,
             price_per_100g: (priceNoSpaces = result.querySelector(
               "span.text__Text-sc-1ddlex6-0.hdYQli"
             ).textContent).replace(/[{()}]/g, ""),
@@ -122,7 +122,5 @@ const scrollScraper = async (url) => {
 };
 
 scrollScraper(
-  "https://voila.ca/products?sortBy=favorite&sublocationId=34cfd096-474c-4bfd-b694-24e3f6770500"
-  // "https://voila.ca/products?sortBy=favorite&sublocationId=5e6a04b2-64de-4f2a-b53d-aeaa5b80c768"
-  // "https://voila.ca/products?sortBy=favorite&sublocationId=cff0e150-929b-4c5f-aa67-a84f7c6deb71"
+  "https://voila.ca/products?sortBy=favorite&sublocationId=f8fc0e0b-b825-4637-8be0-b6652b9b61f1"
 );
