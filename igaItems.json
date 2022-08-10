@@ -60,7 +60,12 @@
     "store": "iga",
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": true, "price_per_item": "4.49" },
-    "sold_by_package": { "is": false, "price_per_package": "" },
+    "sold_by_package": {
+      "is": false,
+      "price_per_package": "",
+      "units_per_package": "",
+      "price_per_100g": ""
+    },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/61b79a43-0ed3-47c4-93e9-8efe9b75a200/300x300.jpg",
     "link": "https://voila.ca/products/842627EA/details"
   },
@@ -577,7 +582,7 @@
       "is": true,
       "price_per_package": "1.99",
       "units_per_package": "85g",
-      "price_per_100g": "1.99"
+      "price_per_100g": ""
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/fcfd7991-b4f1-4642-b1a6-d2a72d259b96/300x300.jpg",
     "link": "https://voila.ca/products/869121EA/details"
@@ -956,7 +961,7 @@
       "is": true,
       "price_per_package": "5.49",
       "units_per_package": "142g",
-      "price_per_100g": "5.49"
+      "price_per_100g": "3.87"
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/d167f52e-eff4-4ee1-a2fa-47354f01438d/300x300.jpg",
     "link": "https://voila.ca/products/669144EA/details"
@@ -1205,7 +1210,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.49",
       "units_per_package": "85g",
       "price_per_100g": "4.11"
@@ -1219,7 +1224,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "5.49",
       "units_per_package": "170g",
       "price_per_100g": "3.23"
@@ -1233,7 +1238,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "5.69",
       "units_per_package": "170g",
       "price_per_100g": "3.35"
@@ -1247,7 +1252,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "6.99",
       "units_per_package": "170g",
       "price_per_100g": "4.11"
@@ -1261,7 +1266,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "7.99",
       "units_per_package": "680g",
       "price_per_100g": "1.18"
@@ -1275,7 +1280,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.49",
       "units_per_package": "227g",
       "price_per_100g": "1.54"
@@ -1289,7 +1294,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.49",
       "units_per_package": "227g",
       "price_per_100g": "1.54"
@@ -1303,7 +1308,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.99",
       "units_per_package": "227g",
       "price_per_100g": "1.76"
@@ -1317,7 +1322,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "6.49",
       "units_per_package": "113g",
       "price_per_100g": "5.74"
@@ -1331,7 +1336,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "6.99",
       "units_per_package": "170g",
       "price_per_100g": "4.11"
@@ -1345,7 +1350,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "2.99",
       "units_per_package": "227g",
       "price_per_100g": "1.32"
@@ -1359,7 +1364,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.99",
       "units_per_package": "227g",
       "price_per_100g": "1.76"
@@ -1373,7 +1378,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.99",
       "units_per_package": "170g",
       "price_per_100g": "2.35"
@@ -1387,7 +1392,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "5.99",
       "units_per_package": "113g",
       "price_per_100g": "5.30"
@@ -1401,10 +1406,10 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "6.99",
       "units_per_package": "170g",
-      "price_per_100g": "6.99"
+      "price_per_100g": "4.11"
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/46c54628-7fd1-49e3-bb59-c62fb099b3fd/300x300.jpg",
     "link": "https://voila.ca/products/7973EA/details"
@@ -1415,7 +1420,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "7.99",
       "units_per_package": "170g",
       "price_per_100g": "4.70"
@@ -1737,7 +1742,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "4.99",
       "units_per_package": "680g",
       "price_per_100g": "0.73"
@@ -1751,7 +1756,7 @@
     "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
     "sold_individually": { "is": false, "price_per_item": "" },
     "sold_by_package": {
-      "is": false,
+      "is": true,
       "price_per_package": "3.99",
       "units_per_package": "680g",
       "price_per_100g": "0.59"
@@ -2627,5 +2632,47 @@
     },
     "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/e0167952-dd7d-4087-b228-b0f2d57eb48a/300x300.jpg",
     "link": "https://voila.ca/products/840715EA/details"
+  },
+  {
+    "product_name": "Zucchini Squash Yellow 2 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.49",
+      "units_per_package": "2",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/e8c94c45-b35b-40ff-8283-c8be002a2ae3/300x300.jpg",
+    "link": "https://voila.ca/products/868404EA/details"
+  },
+  {
+    "product_name": "Zucchini Squash 3 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "3.49",
+      "units_per_package": "3",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/a91e516a-73a9-466f-92c0-ee873146707a/300x300.jpg",
+    "link": "https://voila.ca/products/868413EA/details"
+  },
+  {
+    "product_name": "Organic Zucchini Squash Local 2 EA",
+    "store": "iga",
+    "sold_by_weight": { "is": false, "price_per_lb": "", "price_per_kg": "" },
+    "sold_individually": { "is": false, "price_per_item": "" },
+    "sold_by_package": {
+      "is": true,
+      "price_per_package": "5.99",
+      "units_per_package": "2",
+      "price_per_100g": ""
+    },
+    "img_src": "https://voila.ca/images-v3/2d92d19c-0354-49c0-8a91-5260ed0bf531/de82104b-d37f-4c4b-bdaa-2b98bc6466b6/300x300.jpg",
+    "link": "https://voila.ca/products/967523EA/details"
   }
 ]
