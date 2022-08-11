@@ -1,5 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
+const cors = require("cors");
 const { getAllProducts } = require("./handlers/productHandlers");
 const { getUserDetails, addUser } = require("./handlers/userHandlers");
 const { getUserCarts } = require("./handlers/basketHandlers");
@@ -11,6 +12,7 @@ express()
     res.header("Access-Control-Allow-Origin", "*");
     next();
   })
+  .use(cors())
   // CORS error fix: https://medium.com/@dtkatz/3-ways-to-fix-the-cors-error-and-how-access-control-allow-origin-works-d97d55946d9
 
   // PRODUCT ENDPOINTS
