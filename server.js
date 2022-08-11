@@ -1,6 +1,8 @@
 const express = require("express");
 const morgan = require("morgan");
 const { getAllProducts } = require("./handlers/productHandlers");
+const { getUserDetails, addUser } = require("./handlers/userHandlers");
+const { getUserCarts } = require("./handlers/basketHandlers");
 
 express()
   .use(morgan("tiny"))
@@ -15,15 +17,15 @@ express()
   .get("/all-products", getAllProducts)
 
   // // CARTS ENDPOINTS
-  // .get("/carts/get/:user") // local storage?
-  // .patch("/carts/add-item/:user")
-  // .delete("/carts/delete-item/:user") // remove item
-  // .delete("/carts/empty/:user") // remove all items
+  .get("/carts/:user", getUserCarts) // local storage?
+  // .patch("/carts/:user/add-item")
+  // .delete("/carts/:user/delete-item") // remove item
+  // .delete("/carts/:user/empty") // remove all items
 
   // // USER ENDPOINTS
-  // .get("/profile/:user") // get user details (e.g. searched products)
-  // .patch("/profile/:user") // add new searched product to profile
-  // .post("/profile/:user") // create user profile
+  .get("/profile/:userId", getUserDetails) // get user details (e.g. searched products)
+  // .patch("/profile/:userId") // add new searched product to profile
+  .post("/profile/:userId", addUser) // create user profile
 
   // CATCH-ALL ENDPOINT
 
