@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const { getAllProducts } = require("./handlers/productHandlers");
 const { addUser } = require("./handlers/userHandlers");
-const { getUserCart } = require("./handlers/cartHandlers");
+const { getUserCart, addToCurrentCart } = require("./handlers/cartHandlers");
 
 express()
   .use(morgan("tiny"))
@@ -20,7 +20,7 @@ express()
   // CURRENT CART ENDPOINTS
   // -- current cart (i.e. not yet favourited)
   .get("/current-cart/:user", getUserCart) // local storage?
-  .patch("/current-cart/:user/add-item")
+  .put("/current-cart/:user/add-item", addToCurrentCart)
   // .delete("/carts/:user/remove-item") // remove item
   // .delete("/carts/:user/remove-all") // remove all items
 
@@ -33,7 +33,7 @@ express()
   // // USER ENDPOINTS
   // .get("/profile/:userId", getUserDetails) // get user details (e.g. searched products)
   // .patch("/profile/:userId") // add new searched product to profile
-  .post("/profile/:userId", addUser) // create user profile
+  .post("/profile/:userId", addUser) // create user profile AND cart
 
   // CATCH-ALL ENDPOINT
   .get("*", (req, res) => {
