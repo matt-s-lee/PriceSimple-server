@@ -8,19 +8,19 @@ const options = {
   useUnifiedTopology: true,
 };
 
-const getUserCarts = async (req, res) => {
+const getUserCart = async (req, res) => {
   const user = req.params.user;
   const client = new MongoClient(MONGO_URI, options);
 
   try {
     await client.connect();
-    const db = client.db("users");
-    const result = await db.collection("user_carts").findOne({ user });
+    const db = client.db("carts");
+    const result = await db.collection("current_carts").findOne({ user });
     if (result) {
       res.status(200).json({ status: 200, data: result });
     } else {
       const cart = { _id: uuidv4(), userId: user };
-      const result = await db.collection("user_carts").insertOne(cart);
+      const result = await db.collection("current_carts").insertOne(cart);
       result.acknowledged === true
         ? res.status(200).json({ status: 200, data: cart, message: "empty cart created" })
         : res.status(400).json({ status: 400, message: "cart not added" });
@@ -32,4 +32,16 @@ const getUserCarts = async (req, res) => {
   }
 };
 
-module.exports = { getUserCarts };
+const addToCart = async (req, res) => {
+  const client = new MongoClient(MONGO_URI, options);
+  try {
+    await client.connect();
+    const db = client.db("users");
+    const result = await db.collection("user_carts").updateOne({});
+  } catch {
+  } finally {
+    await client.close();
+  }
+};
+
+module.exports = { getUserCart };

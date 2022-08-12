@@ -7,25 +7,6 @@ const options = {
   useUnifiedTopology: true,
 };
 
-const getUserDetails = async (req, res) => {
-  const client = new MongoClient(MONGO_URI, options);
-
-  try {
-    await client.connect();
-    const db = client.db("users");
-    const user = await db.collection("user_profiles").findOne({ _id: req.params.userId });
-    if (!user) {
-      return res.status(404).json({ status: 404, message: "no user found" });
-    } else {
-      return res.status(200).json({ status: 200, data: user });
-    }
-  } catch (err) {
-    return res.status(500).json({ status: 500, message: err });
-  } finally {
-    await client.close();
-  }
-};
-
 const addUser = async (req, res) => {
   const client = new MongoClient(MONGO_URI, options);
   const user = req.body;
@@ -52,4 +33,24 @@ const addUser = async (req, res) => {
   }
 };
 
-module.exports = { getUserDetails, addUser };
+module.exports = { addUser };
+
+// not sure if this is necessary, if all details from Auth0
+
+// const getUserDetails = async (req, res) => {
+//   const client = new MongoClient(MONGO_URI, options);
+//   try {
+//     await client.connect();
+//     const db = client.db("users");
+//     const user = await db.collection("user_profiles").findOne({ _id: req.params.userId });
+//     if (!user) {
+//       return res.status(404).json({ status: 404, message: "no user found" });
+//     } else {
+//       return res.status(200).json({ status: 200, data: user });
+//     }
+//   } catch (err) {
+//     return res.status(500).json({ status: 500, message: err });
+//   } finally {
+//     await client.close();
+//   }
+// };
