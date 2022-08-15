@@ -22,9 +22,11 @@ const addUser = async (req, res) => {
       console.log(result);
       result.acknowledged === true
         ? res.status(200).json({ status: 200, data: user, message: "profile created" })
-        : res.status(400).json({ status: 400, message: "no profile created" });
+        : res.status(400).json({ status: 400, message: "error: no profile created" });
     } else {
-      res.status(400).json({ status: 400, message: "user already exists" });
+      res
+        .status(400)
+        .json({ status: 400, message: "user already exists, no profile created" });
     }
   } catch {
     return res.status(500).json({ status: 500, message: "error" });

@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const cors = require("cors");
 const { getAllProducts } = require("./handlers/productHandlers");
 const { addUser } = require("./handlers/userHandlers");
-const { getUserCart, addToCurrentCart } = require("./handlers/cartHandlers");
+const { getUserCart, addToCurrentCart, removeItem } = require("./handlers/cartHandlers");
 
 express()
   .use(morgan("tiny"))
@@ -21,7 +21,7 @@ express()
   // -- current cart (i.e. not yet favourited)
   .get("/current-cart/:user", getUserCart) // local storage?
   .put("/current-cart/:user/add-item", addToCurrentCart)
-  // .delete("/carts/:user/remove-item") // remove item
+  .delete("/current-cart/:user/remove-item", removeItem) // remove item
   // .delete("/carts/:user/remove-all") // remove all items
 
   // SAVED CARTS ENDPOINTS

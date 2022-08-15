@@ -61,6 +61,13 @@ const addToCurrentCart = async (req, res) => {
             items: {
               productId: body.productId,
               quantity: body.quantity,
+              product: body.product,
+              soldByPackage: body.soldByPackage,
+              soldByWeight: body.soldByWeight,
+              soldIndividually: body.soldIndividually,
+              store: body.store,
+              imgSrc: body.imgSrc,
+              link: body.link,
             },
           },
         }
@@ -77,4 +84,41 @@ const addToCurrentCart = async (req, res) => {
   }
 };
 
-module.exports = { getUserCart, addToCurrentCart };
+const removeItem = async (req, res) => {
+  const userId = req.body.user;
+  const item = req.body.item;
+
+  if (userId && item) {
+    const client = new MongoClient(MONGO_URI, options);
+    try {
+      await client.connect();
+      const db = client.db("carts");
+      //find shopping cart for user
+      const result = await db
+        .collection("current_carts")
+        .updateOne({ userId }, { $pull: { items: { productId: item } } });
+      if (result.modifiedCount) {
+        res.status(200).json({
+          status: 200,
+          data: result,
+          message: "item successfully deleted",
+        });
+      } else {
+        res.status(40).json({
+          status: 400,
+          data: req.body,
+          message: "no items deleted",
+        });
+      }
+      // close the connection to the database server
+    } catch (err) {
+      res.status(500).json({ status: 500, message: err.message });
+    } finally {
+      await client.close();
+    }
+  } else {
+    res.status(422).json({ status: 422, data: req.body, message: "missing information" });
+  }
+};
+
+module.exports = { getUserCart, addToCurrentCart, removeItem };
