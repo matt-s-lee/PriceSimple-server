@@ -7,9 +7,7 @@ const options = {
   useUnifiedTopology: true,
 };
 
-const igaData = fs.readFileSync("./data/igaItems.json");
-const igaParsed = JSON.parse(igaData);
-const metroData = fs.readFileSync("./data/metroItems.json");
+const metroData = fs.readFileSync("./metroItems.json");
 const metroParsed = JSON.parse(metroData);
 
 const batchImportFunc = async (dbName) => {
@@ -20,8 +18,7 @@ const batchImportFunc = async (dbName) => {
     const db = client.db(dbName);
     console.log("connected!");
 
-    await db.collection("iga").insertMany(igaParsed);
-    await db.collection("metro").insertMany(metroParsed);
+    await db.collection("2022_08_11").insertMany(metroParsed);
   } catch (err) {
     console.log(err.message);
   } finally {
