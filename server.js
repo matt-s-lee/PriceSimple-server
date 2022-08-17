@@ -1,7 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 const cors = require("cors");
-const { getAllProducts } = require("./handlers/productHandlers");
+const { getAllProducts, getProductOverTime } = require("./handlers/productHandlers");
 const { addUser } = require("./handlers/userHandlers");
 const { getUserCart, addToCurrentCart, removeItem } = require("./handlers/cartHandlers");
 
@@ -16,23 +16,17 @@ express()
 
   // PRODUCT ENDPOINTS
   .get("/all-products", getAllProducts)
+  .get("/all-products/:product", getProductOverTime) // product price history
 
   // CURRENT CART ENDPOINTS
-  // -- current cart (i.e. not yet favourited)
   .get("/current-cart/:user", getUserCart) // local storage?
   .put("/current-cart/:user/add-item", addToCurrentCart)
   .delete("/current-cart/:user/remove-item", removeItem) // remove item
-  // .delete("/carts/:user/remove-all") // remove all items
 
   // SAVED CARTS ENDPOINTS
   .get("/saved-cart/:user", getUserCart) // local storage?
-  .patch("/saved-cart/:user/add-item")
-  // .delete("/saved-cart/:user/remove-item") // remove item
-  // .delete("/saved-cart/:user/remove-all") // remove all items
 
   // // USER ENDPOINTS
-  // .get("/profile/:userId", getUserDetails) // get user details (e.g. searched products)
-  // .patch("/profile/:userId") // add new searched product to profile
   .post("/profile/:userId", addUser) // create user profile AND cart
 
   // CATCH-ALL ENDPOINT

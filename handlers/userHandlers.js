@@ -37,8 +37,6 @@ const addUser = async (req, res) => {
 
 module.exports = { addUser };
 
-// not sure if this is necessary, if all details from Auth0
-
 // const getUserDetails = async (req, res) => {
 //   const client = new MongoClient(MONGO_URI, options);
 //   try {
