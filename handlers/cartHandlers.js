@@ -35,8 +35,6 @@ const getUserCart = async (req, res) => {
 const addToCurrentCart = async (req, res) => {
   const userId = req.params.user;
   const body = req.body;
-  console.log("USER", userId);
-  console.log("BODY", body);
 
   const client = new MongoClient(MONGO_URI, options);
   try {
@@ -48,7 +46,6 @@ const addToCurrentCart = async (req, res) => {
         { userId, "items.productId": body.productId },
         { $set: { "items.$.quantity": body.quantity } }
       );
-    console.log("RESULT", result);
     if (result.modifiedCount) {
       return res
         .status(200)
@@ -72,7 +69,6 @@ const addToCurrentCart = async (req, res) => {
           },
         }
       );
-      console.log("RESULT2", result);
       result.modifiedCount
         ? res.status(200).json({ status: 200, message: "New item added to cart" })
         : res.status(400).json({ status: 400, message: "No items added or modified in cart" });

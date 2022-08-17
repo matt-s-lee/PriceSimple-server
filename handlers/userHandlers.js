@@ -10,16 +10,12 @@ const options = {
 const addUser = async (req, res) => {
   const client = new MongoClient(MONGO_URI, options);
   const user = req.body;
-  console.log("USER", user);
   try {
     await client.connect();
-    console.log("connected");
     const db = client.db("users");
-    console.log("db found");
     const result = await db.collection("user_profiles").findOne({ _id: req.body._id });
     if (!result) {
       const result = await db.collection("user_profiles").insertOne(user);
-      console.log(result);
       result.acknowledged === true
         ? res.status(200).json({ status: 200, data: user, message: "profile created" })
         : res.status(400).json({ status: 400, message: "error: no profile created" });

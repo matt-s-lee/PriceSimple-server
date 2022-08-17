@@ -30,7 +30,6 @@ const getAllProducts = async (req, res) => {
 
 const getProductOverTime = async (req, res) => {
   const productName = req.params.product;
-  console.log(productName);
   const client = new MongoClient(MONGO_URI, options);
 
   try {
