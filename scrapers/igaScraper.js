@@ -1,4 +1,6 @@
-// IGA WEBSITE
+// ------------------
+// CODE for Voila.ca
+// ------------------
 
 const puppeteer = require("puppeteer");
 const fs = require("fs");
@@ -17,6 +19,10 @@ const scrollScraper = async (url) => {
   try {
     await page.goto(url, { timeout: 120000 });
 
+    // ----------------------------------------------------------
+    // SCRAPE page for items sold individually, based on selector
+    // https://pptr.dev/api/puppeteer.page.__eval
+    // ----------------------------------------------------------
     const soldIndividually = await page.$$eval(
       ".base__Wrapper-sc-1m8b7ry-7.base__FixedHeightWrapper-sc-1m8b7ry-43.gYtJUs.loZIQJ.viewports-enabled-standard-fop__ViewportsEnabledFop-sc-1y5mdxx-0.ijsLHe",
       // "#main > div:nth-child(2) > div > div > div.Col-sc-dzwtyp-0.bKNFFR > div > div > div",
@@ -55,6 +61,9 @@ const scrollScraper = async (url) => {
       }
     );
 
+    // ----------------------------------------------------------
+    // SCRAPE page for items sold by package, based on selector
+    // ----------------------------------------------------------
     const soldByPackage = await page.$$eval(
       ".base__Wrapper-sc-1m8b7ry-7.base__FixedHeightWrapper-sc-1m8b7ry-43.gYtJUs.loZIQJ.viewports-enabled-standard-fop__ViewportsEnabledFop-sc-1y5mdxx-0.ijsLHe",
       (results) => {
@@ -95,12 +104,20 @@ const scrollScraper = async (url) => {
         return array;
       }
     );
+
+    // ------------------------------
+    // PUSH results into single array
+    // ------------------------------
     soldIndividually.forEach((element) => {
       scrapedData.push(element);
     });
     soldByPackage.forEach((element) => {
       scrapedData.push(element);
     });
+
+    // -------------------------------------
+    // READ existing json.file and ADD to it
+    // -------------------------------------
     fs.readFile("igaItems.json", function (err, data) {
       const json = JSON.parse(data);
       scrapedData.forEach((element) => {

@@ -7,6 +7,9 @@ const options = {
   useUnifiedTopology: true,
 };
 
+// -------------------------
+// CREATE new user profile
+// -------------------------
 const addUser = async (req, res) => {
   const client = new MongoClient(MONGO_URI, options);
   const user = req.body;
@@ -21,8 +24,8 @@ const addUser = async (req, res) => {
         : res.status(400).json({ status: 400, message: "error: no profile created" });
     } else {
       res
-        .status(400)
-        .json({ status: 400, message: "user already exists, no profile created" });
+        .status(200)
+        .json({ status: 200, message: "user already exists, no profile created" });
     }
   } catch {
     return res.status(500).json({ status: 500, message: "error" });
@@ -33,20 +36,3 @@ const addUser = async (req, res) => {
 
 module.exports = { addUser };
 
-// const getUserDetails = async (req, res) => {
-//   const client = new MongoClient(MONGO_URI, options);
-//   try {
-//     await client.connect();
-//     const db = client.db("users");
-//     const user = await db.collection("user_profiles").findOne({ _id: req.params.userId });
-//     if (!user) {
-//       return res.status(404).json({ status: 404, message: "no user found" });
-//     } else {
-//       return res.status(200).json({ status: 200, data: user });
-//     }
-//   } catch (err) {
-//     return res.status(500).json({ status: 500, message: err });
-//   } finally {
-//     await client.close();
-//   }
-// };

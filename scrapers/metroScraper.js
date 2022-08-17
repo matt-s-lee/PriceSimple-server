@@ -1,26 +1,34 @@
-// METRO WEBSITE
+// ------------------
+// CODE for metro.ca
+// ------------------
 
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
 const paginatedScraper = async (url) => {
-  // OPEN BROWSER
+  // Open browser
   const browser = await puppeteer.launch({
     headless: false,
   });
 
+  // Open new page
   const page = await browser.newPage();
   console.log(`Navigating to ${url}`);
   await page.goto(url, { timeout: 60000 });
 
   let scrapedData = [];
+
+  // WHILE button still exists
+  // *** fix me: this code results in an endless loop on the last page... ***
   while (
     await page.$(
       "#content-temp > div > div.layout--container > div.layout--right > div:nth-child(4) > div > div > a:nth-child(3)"
     )
   ) {
+    // ----------------------------------------------------------
+    // SCRAPE page for items sold individually, based on selector
+    // ----------------------------------------------------------
     try {
-      // For all items sold individually
       const soldIndividually = await page.$$eval(".tile-product.item-addToCart", (results) => {
         results = results.filter((result) =>
           result.querySelector(".pt-weight").textContent.includes("individually")
@@ -53,7 +61,9 @@ const paginatedScraper = async (url) => {
         return array;
       });
 
-      // For all items sold in a package, that also have price/100g
+      // ---------------------------------------------------
+      // SCRAPE page for items sold package, with price/100g
+      // ---------------------------------------------------
       const soldByPackage = await page.$$eval(".tile-product.item-addToCart", (results) => {
         results = results.filter((result) =>
           result.querySelector(".pi-secondary-price").textContent.includes("/100")
@@ -91,7 +101,9 @@ const paginatedScraper = async (url) => {
         return array;
       });
 
-      // For all items sold by bunch/unit, without price/100g (e.g. kale, radishes)
+      // ---------------------------------------------------------------------------------
+      // SCRAPE page for items sold by bunch/unit (e.g. kale, radishes), without price/100g
+      // ----------------------------------------------------------------------------------
       const soldByUnit = await page.$$eval(".tile-product.item-addToCart", (results) => {
         results = results.filter(
           (result) =>
@@ -126,7 +138,9 @@ const paginatedScraper = async (url) => {
         return array;
       });
 
-      // For all items sold by weight, with price/kg and price/lb
+      // ---------------------------------------------------------
+      // SCRAPE page for items sold by weight, with price/kg or lb
+      // ---------------------------------------------------------
       const soldByWeight = await page.$$eval(".tile-product.item-addToCart", (results) => {
         results = results.filter((result) =>
           result.querySelector(".pi-secondary-price").textContent.includes("lb.")
@@ -163,7 +177,9 @@ const paginatedScraper = async (url) => {
         return array;
       });
 
-      // Push all elements into one away
+      // ---------------------------------
+      // PUSH all elements into one array
+      // ---------------------------------
       soldIndividually.forEach((element) => {
         scrapedData.push(element);
       });
@@ -177,7 +193,9 @@ const paginatedScraper = async (url) => {
         scrapedData.push(element);
       });
 
-      // Write or append into json file
+      // ---------------------------------
+      // READ then append into json file
+      // ---------------------------------
       fs.readFile("metroItems.json", function (err, data) {
         const json = JSON.parse(data);
         scrapedData.forEach((element) => {
@@ -190,6 +208,8 @@ const paginatedScraper = async (url) => {
           console.log("Data was appended");
         });
       });
+
+      // CLICK button for next page
       await page.click(
         "#content-temp > div > div.layout--container > div.layout--right > div:nth-child(4) > div > div > a:nth-child(3)"
       );
@@ -202,7 +222,6 @@ const paginatedScraper = async (url) => {
   return scrapedData;
 };
 
-// paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
 paginatedScraper(
   "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-12"
 );

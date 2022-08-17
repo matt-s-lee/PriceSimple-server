@@ -7,7 +7,9 @@ const options = {
   useUnifiedTopology: true,
 };
 
-// returns a list of all items
+// -------------------------------------
+// GET all products from this week's DB
+// -------------------------------------
 const getAllProducts = async (req, res) => {
   const client = new MongoClient(MONGO_URI, options);
 
@@ -28,6 +30,9 @@ const getAllProducts = async (req, res) => {
   }
 };
 
+// -------------------------------------------------
+// GET one product over multiple weeks' collections
+// -------------------------------------------------
 const getProductOverTime = async (req, res) => {
   const productName = req.params.product;
   const client = new MongoClient(MONGO_URI, options);
