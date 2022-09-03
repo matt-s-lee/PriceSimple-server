@@ -192,6 +192,7 @@ const paginatedScraper = async (url) => {
       soldByWeight.forEach((element) => {
         scrapedData.push(element);
       });
+      console.log("length", scrapedData.length);
 
       // ---------------------------------
       // READ then append into json file
@@ -222,6 +223,5 @@ const paginatedScraper = async (url) => {
   return scrapedData;
 };
 
-paginatedScraper(
-  "https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-12"
-);
+paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
+// https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-2

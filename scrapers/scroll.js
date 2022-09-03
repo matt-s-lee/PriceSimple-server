@@ -23,16 +23,16 @@ const scrollScraper = async (url) => {
         window.scrollBy(0, distance);
       });
       totalHeight += distance;
-      if (totalHeight >= scrollHeight - window.innerHeight) {
+      if (totalHeight >= document.body.scrollHeight - window.innerHeight) {
         clearInterval(timer);
         resolve();
       }
-    }, 500);
+    }, 1500);
   });
 };
 
 scrollScraper(
-  "https://voila.ca/products?source=navigation&sublocationId=8862c469-f3cb-4f49-948d-59923bdd0b17"
+  "https://voila.ca/products?source=navigation&sublocationId=7ac279a8-c157-43e2-816b-b5a08767453d"
 );
 
 // await page.$$eval(

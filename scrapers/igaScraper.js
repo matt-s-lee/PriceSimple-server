@@ -130,14 +130,14 @@ const scrollScraper = async (url) => {
         console.log("Data was appended");
       });
     });
-    console.log(scrapedData.length);
+    console.log("data length", scrapedData.length);
   } catch (err) {
-    console.log(err);
+    console.log("err", err);
   } finally {
     await browser.close();
   }
 };
 
 scrollScraper(
-  "https://voila.ca/products?sortBy=favorite&sublocationId=f8fc0e0b-b825-4637-8be0-b6652b9b61f1"
+  "https://voila.ca/products?source=navigation&sublocationId=8ce4e515-42c1-48d7-964c-7d0c14df2b25"
 );
