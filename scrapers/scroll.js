@@ -17,17 +17,17 @@ const scrollScraper = async (url) => {
   await page.evaluate(async () => {
     await new Promise((resolve, reject) => {
       let totalHeight = 0;
-      let distance = 200;
+      let distance = window.innerHeight;
       let timer = setInterval(async () => {
-        let scrollHeight = document.body.scrollHeight;
         window.scrollBy(0, distance);
-      });
+        await 
+      }, 1500);
       totalHeight += distance;
       if (totalHeight >= document.body.scrollHeight - window.innerHeight) {
         clearInterval(timer);
         resolve();
       }
-    }, 1500);
+    });
   });
 };
 
