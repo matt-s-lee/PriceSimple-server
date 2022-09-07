@@ -40,12 +40,13 @@ const getProductOverTime = async (req, res) => {
   try {
     await client.connect();
     const db = client.db("products");
-    const metro = await db.collection("metro").findOne({ product_name: productName });
-    const thisWeeksProduce = await db
-      .collection("2022_08_11")
-      .findOne({ product_name: productName });
-    const bothItems = [metro, thisWeeksProduce];
-    res.status(200).json({ status: 200, data: bothItems, message: "something" });
+    const week1 = await db.collection("metro").findOne({ product_name: productName });
+    const week2 = await db.collection("2022_08_11").findOne({ product_name: productName });
+    const week3 = await db.collection("2022_08_18").findOne({ product_name: productName });
+    const allItems = [week1, week2, week3];
+    res
+      .status(200)
+      .json({ status: 200, data: allItems, message: "Successfully retrieved products" });
   } catch (err) {
     res.status(500).json({ status: 500, message: err.message });
   } finally {

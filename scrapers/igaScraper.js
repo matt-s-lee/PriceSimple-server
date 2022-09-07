@@ -1,5 +1,5 @@
 // ------------------
-// CODE for Voila.ca
+// CODE for Voila
 // ------------------
 
 const puppeteer = require("puppeteer");

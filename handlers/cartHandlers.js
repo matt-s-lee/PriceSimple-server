@@ -22,7 +22,7 @@ const getUserCart = async (req, res) => {
     if (result) {
       res.status(200).json({ status: 200, data: result });
 
-      // IF no found, create one for user
+      // IF no cart found, create one for user
     } else {
       const cart = { _id: uuidv4(), userId: user, items: [] };
       const result = await db.collection("current_carts").insertOne(cart);
@@ -49,7 +49,7 @@ const addToCurrentCart = async (req, res) => {
     await client.connect();
     const db = client.db("carts");
 
-    // (try to) UPDATE cart first
+    // Try to UPDATE cart first
     const result = await db
       .collection("current_carts")
       .updateOne(
@@ -61,7 +61,7 @@ const addToCurrentCart = async (req, res) => {
         .status(200)
         .json({ status: 200, message: "Quantity of existing cart item updated" });
 
-      // IF item doesn't yet exist, ADD new item
+      // IF item doesn't yet exist in cart, ADD new item
     } else if (!result.matchedCount) {
       const result = await db.collection("current_carts").updateOne(
         { userId },

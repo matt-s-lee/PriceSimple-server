@@ -5,7 +5,7 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 
-const paginatedScraper = async (url) => {
+const metroScraper = async (url) => {
   // Open browser
   const browser = await puppeteer.launch({
     headless: false,
@@ -223,5 +223,8 @@ const paginatedScraper = async (url) => {
   return scrapedData;
 };
 
-paginatedScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
-// https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-2
+// metroScraper("https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables");
+metroScraper(
+  `https://www.metro.ca/en/online-grocery/aisles/fruits-vegetables/vegetables-page-11`
+);
+

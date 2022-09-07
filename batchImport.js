@@ -18,7 +18,7 @@ const batchImportFunc = async (dbName) => {
     const db = client.db(dbName);
     console.log("connected!");
 
-    await db.collection("2022_08_11").insertMany(metroParsed);
+    await db.collection("2022_08_18").insertMany(metroParsed);
   } catch (err) {
     console.log(err.message);
   } finally {
