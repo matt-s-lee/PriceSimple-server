@@ -1,1 +1,0 @@
-mongoexport --uri="mongodb+srv://matt-s-lee:39ZutIY5VCtj5cqt@cluster0.werwdvr.mongodb.net/?retryWrites=true&w=majority"  --collection=iga  --out=iga.json
